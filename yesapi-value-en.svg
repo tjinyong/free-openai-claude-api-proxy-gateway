@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="520" viewBox="0 0 1080 520" role="img" aria-labelledby="title desc">
+  <title id="title">YesAPI ultra low cost example</title>
+  <desc id="desc">Pay 1.5 dollars, get 10 dollars credited, and receive about 50 dollars usable value.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="0.48" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="520" rx="34" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1024" height="464" rx="28" fill="#ffffff" stroke="#fed7aa" stroke-width="2" filter="url(#shadow)"/>
+
+  <text x="540" y="86" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" fill="#111827">YesAPI makes AI API usage much cheaper</text>
+  <text x="540" y="124" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#64748b">Top up once. Use longer with discounted model rates.</text>
+
+  <g transform="translate(70 170)">
+    <rect x="0" y="0" width="270" height="220" rx="24" fill="#fff1f2" stroke="#fecdd3" stroke-width="2"/>
+    <text x="135" y="62" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" fill="#e11d48">$1.5</text>
+    <text x="135" y="104" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" fill="#111827">You pay</text>
+    <text x="135" y="145" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#64748b">Low top-up entry</text>
+    <text x="135" y="174" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#64748b">simple and affordable</text>
+  </g>
+
+  <g transform="translate(405 170)">
+    <rect x="0" y="0" width="270" height="220" rx="24" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+    <text x="135" y="62" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" fill="#ea580c">$10</text>
+    <text x="135" y="104" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" fill="#111827">Credit in</text>
+    <text x="135" y="145" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#64748b">Credited balance</text>
+    <text x="135" y="174" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#64748b">ready for all models</text>
+  </g>
+
+  <g transform="translate(740 170)">
+    <rect x="0" y="0" width="270" height="220" rx="24" fill="#ecfeff" stroke="#a5f3fc" stroke-width="2"/>
+    <text x="135" y="62" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" fill="#0891b2">~$50</text>
+    <text x="135" y="104" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" fill="#111827">Usable value</text>
+    <text x="135" y="145" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#64748b">Lower model rate</text>
+    <text x="135" y="174" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#64748b">means longer usage</text>
+  </g>
+
+  <path d="M352 278h38" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M382 260l24 18-24 18" fill="none" stroke="#f97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M687 278h38" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M717 260l24 18-24 18" fill="none" stroke="#f97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="260" y="424" width="560" height="44" rx="22" fill="#111827"/>
+  <text x="540" y="453" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">Pay less first. Then every low-rate model makes your balance last longer.</text>
+</svg>
