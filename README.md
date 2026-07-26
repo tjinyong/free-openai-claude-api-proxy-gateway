@@ -30,11 +30,11 @@
 ### 先低价充值，再按模型低倍率用得更久
 
 <p align="center">
-  <img src="./assets/yesapi-value-en.svg" alt="Pay $1.5, get $10 credit, about $50 usable value" width="820">
+  <img src="./yesapi-value-en.svg" alt="Pay $1.5, get $10 credit, about $50 usable value" width="820">
 </p>
 
 <p align="center">
-  <img src="./assets/yesapi-value-cn.svg" alt="支付 ¥10，到账 $10 额度，约 $50 可用价值" width="820">
+  <img src="./yesapi-value-cn.svg" alt="支付 ¥10，到账 $10 额度，约 $50 可用价值" width="820">
 </p>
 
 | Step | English | 中文 |
