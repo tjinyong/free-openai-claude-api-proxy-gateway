@@ -1,9 +1,9 @@
 # Free API Proxy & Aggregator for Claude 5, OpenAI GPT-5.6 / GPT-5o, and DeepSeek
 
 <p align="center">
-  <a href="#english">English</a>
-  &nbsp;|&nbsp;
   <a href="#chinese-document">中文</a>
+  &nbsp;|&nbsp;
+  <a href="#english">English</a>
 </p>
 
 <p align="center">
@@ -29,101 +29,15 @@
 
 ### 先低价充值，再按模型低倍率用得更久
 
-| Step | English | 中文 |
+| Step | 中文 | English |
 | :--- | :--- | :--- |
-| **1. Top-up** | **Pay $1.5 -> get $10.00 credited** | **支付 ¥10.00 -> 到账 $10.00 额度** |
-| **2. Usage** | Spend is discounted again by model rate. Lower rate = longer use. | 调用时再按模型倍率折扣。倍率越低，余额越耐用。 |
-| **3. Result** | Small payment, more API calls, longer coding and agent usage. | 小额充值，更多调用，代码补全和 Agent 用得更久。 |
+| **1. Top-up / 充值** | **支付 ¥10.00 -> 到账 $10.00 额度** | **Pay $1.5 -> get $10.00 credited** |
+| **2. Usage / 使用** | 调用时再按模型倍率折扣。倍率越低，余额越耐用。 | Spend is discounted again by model rate. Lower rate = longer use. |
+| **3. Result / 结果** | 小额充值，更多调用，代码补全和 Agent 用得更久。 | Small payment, more API calls, longer coding and agent usage. |
 
 [Start Free Trial](https://yesapi.online) - [View Documentation](https://yesapi.online/docs)
 
 </div>
-
----
-
-<a id="english"></a>
-
-<table>
-  <tr>
-    <td bgcolor="#eef6ff">
-      <h2 align="center">English</h2>
-      <h3 align="center">Low-Cost API Access</h3>
-      <p>
-        YesAPI is a high-speed, stable, and ultra-affordable API proxy and LLM aggregation gateway for developers, startups, and global teams.
-      </p>
-      <p>
-        It is compatible with official OpenAI and Anthropic SDKs, and works smoothly with popular AI coding tools including Cursor, Windsurf, and Trae.
-      </p>
-      <p align="center">
-        <img src="./yesapi-value-en.svg" alt="Pay $1.5, get $10 credit, about $50 usable value" width="820">
-      </p>
-      <h3>Why YesAPI</h3>
-      <table>
-        <tr><th>Advantage</th><th>Details</th></tr>
-        <tr><td><b>Top up cheaply</b></td><td><b>Pay $1.5 and get $10.00 credited</b>, with slight promotional variance.</td></tr>
-        <tr><td><b>Use longer</b></td><td>Your credited balance is discounted again by each model rate. Lower model rate means lower spend.</td></tr>
-        <tr><td><b>Ultra-low cost</b></td><td>API usage can be far cheaper than direct official pricing, especially on low-rate models.</td></tr>
-        <tr><td><b>High-speed access</b></td><td>Multi-region route optimization helps reduce latency for coding, chat, and agent workflows.</td></tr>
-        <tr><td><b>Stable infrastructure</b></td><td>PostgreSQL, Redis cache, and Cloudflare DDoS protection improve reliability and uptime.</td></tr>
-        <tr><td><b>Universal balance</b></td><td>One balance can be used across all supported models.</td></tr>
-        <tr><td><b>Flexible payments</b></td><td>Supports credit cards, crypto payments in USD, and local CNY recharge options.</td></tr>
-      </table>
-      <h3>Cheap Pricing Mechanics</h3>
-      <table>
-        <tr><th>Stage</th><th>Example</th><th>Meaning</th></tr>
-        <tr><td><b>1. Top-up</b></td><td><b>Pay $1.5 -> get $10.00 credited</b></td><td>Your entry cost is low from the start. Actual promotion may vary slightly.</td></tr>
-        <tr><td><b>2. Usage</b></td><td>Balance is consumed by model rate</td><td>The lower the model rate, the longer your balance lasts.</td></tr>
-        <tr><td><b>3. Model switching</b></td><td>Use one balance across supported models</td><td>Claude 5, GPT-5.6, GPT-5o, DeepSeek, and more.</td></tr>
-      </table>
-      <h3>Supported Models</h3>
-      <table>
-        <tr><th>Provider</th><th>Model ID</th><th>Core Capability</th><th>Context Window</th></tr>
-        <tr><td><b>Anthropic</b></td><td><code>claude-opus-5</code> / <code>claude-sonnet-5</code></td><td>Frontier agentic coding and adaptive thinking</td><td>1M</td></tr>
-        <tr><td><b>OpenAI</b></td><td><code>gpt-5.6-sol</code> / <code>gpt-5.6-terra</code></td><td>Flagship reasoning and advanced agent workflows</td><td>1.05M</td></tr>
-        <tr><td><b>OpenAI</b></td><td><code>gpt-5o</code> / <code>gpt-5o-mini</code></td><td>Low-latency multimodal and everyday knowledge work</td><td>256k</td></tr>
-        <tr><td><b>DeepSeek</b></td><td><code>deepseek-chat</code> / <code>deepseek-coder</code></td><td>Efficient budget coding and fast inference</td><td>128k</td></tr>
-      </table>
-      <h3>Quick Integration</h3>
-      <h4>Cursor IDE</h4>
-      <ol>
-        <li>Open Cursor settings.</li>
-        <li>Go to <b>Models</b> and find <b>OpenAI API Key</b>.</li>
-        <li>Set <b>Base URL</b> to:</li>
-      </ol>
-      <pre><code>https://yesapi.online/v1</code></pre>
-      <p>Enter your YesAPI key and start using supported models.</p>
-      <h4>NextChat, LobeChat, One-API</h4>
-      <table>
-        <tr><th>Field</th><th>Value</th></tr>
-        <tr><td>API Host</td><td><code>https://yesapi.online</code></td></tr>
-        <tr><td>Secret Key</td><td>Your YesAPI key, such as <code>sk-...</code></td></tr>
-      </table>
-      <h4>Python SDK Example</h4>
-      <pre><code>import openai
-
-client = openai.OpenAI(
-    base_url="https://yesapi.online/v1",
-    api_key="your-yesapi-key",
-)
-
-response = client.chat.completions.create(
-    model="claude-sonnet-5",
-    messages=[
-        {"role": "user", "content": "Hello YesAPI"}
-    ],
-)
-
-print(response.choices[0].message.content)</code></pre>
-      <h3>FAQ</h3>
-      <h4>How does the pricing multiplier work?</h4>
-      <p>YesAPI uses a two-stage discount model. First, you can pay <b>$1.5</b> and get <b>$10.00 credited</b> with slight promotional variance. Then, usage is discounted again by each model rate, so lower-rate models make the same balance last longer.</p>
-      <h4>Is this API proxy safe and private?</h4>
-      <p>YesAPI uses SSL encrypted transmission and follows a no-logs policy for request and response bodies.</p>
-      <h4>How can I get a free test API key?</h4>
-      <p>Register at <a href="https://yesapi.online">yesapi.online</a> to receive free test quota.</p>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -219,6 +133,92 @@ print(response.choices[0].message.content)</code></pre>
     </td>
   </tr>
 </table>
+<a id="english"></a>
+
+<table>
+  <tr>
+    <td bgcolor="#eef6ff">
+      <h2 align="center">English</h2>
+      <h3 align="center">Low-Cost API Access</h3>
+      <p>
+        YesAPI is a high-speed, stable, and ultra-affordable API proxy and LLM aggregation gateway for developers, startups, and global teams.
+      </p>
+      <p>
+        It is compatible with official OpenAI and Anthropic SDKs, and works smoothly with popular AI coding tools including Cursor, Windsurf, and Trae.
+      </p>
+      <p align="center">
+        <img src="./yesapi-value-en.svg" alt="Pay $1.5, get $10 credit, about $50 usable value" width="820">
+      </p>
+      <h3>Why YesAPI</h3>
+      <table>
+        <tr><th>Advantage</th><th>Details</th></tr>
+        <tr><td><b>Top up cheaply</b></td><td><b>Pay $1.5 and get $10.00 credited</b>, with slight promotional variance.</td></tr>
+        <tr><td><b>Use longer</b></td><td>Your credited balance is discounted again by each model rate. Lower model rate means lower spend.</td></tr>
+        <tr><td><b>Ultra-low cost</b></td><td>API usage can be far cheaper than direct official pricing, especially on low-rate models.</td></tr>
+        <tr><td><b>High-speed access</b></td><td>Multi-region route optimization helps reduce latency for coding, chat, and agent workflows.</td></tr>
+        <tr><td><b>Stable infrastructure</b></td><td>PostgreSQL, Redis cache, and Cloudflare DDoS protection improve reliability and uptime.</td></tr>
+        <tr><td><b>Universal balance</b></td><td>One balance can be used across all supported models.</td></tr>
+        <tr><td><b>Flexible payments</b></td><td>Supports credit cards, crypto payments in USD, and local CNY recharge options.</td></tr>
+      </table>
+      <h3>Cheap Pricing Mechanics</h3>
+      <table>
+        <tr><th>Stage</th><th>Example</th><th>Meaning</th></tr>
+        <tr><td><b>1. Top-up</b></td><td><b>Pay $1.5 -> get $10.00 credited</b></td><td>Your entry cost is low from the start. Actual promotion may vary slightly.</td></tr>
+        <tr><td><b>2. Usage</b></td><td>Balance is consumed by model rate</td><td>The lower the model rate, the longer your balance lasts.</td></tr>
+        <tr><td><b>3. Model switching</b></td><td>Use one balance across supported models</td><td>Claude 5, GPT-5.6, GPT-5o, DeepSeek, and more.</td></tr>
+      </table>
+      <h3>Supported Models</h3>
+      <table>
+        <tr><th>Provider</th><th>Model ID</th><th>Core Capability</th><th>Context Window</th></tr>
+        <tr><td><b>Anthropic</b></td><td><code>claude-opus-5</code> / <code>claude-sonnet-5</code></td><td>Frontier agentic coding and adaptive thinking</td><td>1M</td></tr>
+        <tr><td><b>OpenAI</b></td><td><code>gpt-5.6-sol</code> / <code>gpt-5.6-terra</code></td><td>Flagship reasoning and advanced agent workflows</td><td>1.05M</td></tr>
+        <tr><td><b>OpenAI</b></td><td><code>gpt-5o</code> / <code>gpt-5o-mini</code></td><td>Low-latency multimodal and everyday knowledge work</td><td>256k</td></tr>
+        <tr><td><b>DeepSeek</b></td><td><code>deepseek-chat</code> / <code>deepseek-coder</code></td><td>Efficient budget coding and fast inference</td><td>128k</td></tr>
+      </table>
+      <h3>Quick Integration</h3>
+      <h4>Cursor IDE</h4>
+      <ol>
+        <li>Open Cursor settings.</li>
+        <li>Go to <b>Models</b> and find <b>OpenAI API Key</b>.</li>
+        <li>Set <b>Base URL</b> to:</li>
+      </ol>
+      <pre><code>https://yesapi.online/v1</code></pre>
+      <p>Enter your YesAPI key and start using supported models.</p>
+      <h4>NextChat, LobeChat, One-API</h4>
+      <table>
+        <tr><th>Field</th><th>Value</th></tr>
+        <tr><td>API Host</td><td><code>https://yesapi.online</code></td></tr>
+        <tr><td>Secret Key</td><td>Your YesAPI key, such as <code>sk-...</code></td></tr>
+      </table>
+      <h4>Python SDK Example</h4>
+      <pre><code>import openai
+
+client = openai.OpenAI(
+    base_url="https://yesapi.online/v1",
+    api_key="your-yesapi-key",
+)
+
+response = client.chat.completions.create(
+    model="claude-sonnet-5",
+    messages=[
+        {"role": "user", "content": "Hello YesAPI"}
+    ],
+)
+
+print(response.choices[0].message.content)</code></pre>
+      <h3>FAQ</h3>
+      <h4>How does the pricing multiplier work?</h4>
+      <p>YesAPI uses a two-stage discount model. First, you can pay <b>$1.5</b> and get <b>$10.00 credited</b> with slight promotional variance. Then, usage is discounted again by each model rate, so lower-rate models make the same balance last longer.</p>
+      <h4>Is this API proxy safe and private?</h4>
+      <p>YesAPI uses SSL encrypted transmission and follows a no-logs policy for request and response bodies.</p>
+      <h4>How can I get a free test API key?</h4>
+      <p>Register at <a href="https://yesapi.online">yesapi.online</a> to receive free test quota.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
 
 ---
 
