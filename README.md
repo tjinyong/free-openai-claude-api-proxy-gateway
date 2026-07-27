@@ -7,13 +7,13 @@
 **OpenAI-compatible API endpoint for GPT, Claude, Gemini, DeepSeek, Qwen, Grok and more**
 
 <p>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/Status-Online-16a34a?style=for-the-badge" alt="Status Online"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/OpenAI%20Compatible-/v1%20Endpoint-2563eb?style=for-the-badge" alt="OpenAI compatible endpoint"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/%C2%A510-%2410%20Credit-f97316?style=for-the-badge" alt="CNY top up credit"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/%241.50-%2410%20Credit-0f766e?style=for-the-badge" alt="USD top up credit"></a>
+  <a href="https://yesapi.online?utm_source=github&utm_medium=docs"><img src="https://img.shields.io/badge/Status-Online-16a34a?style=for-the-badge" alt="Status Online"></a>
+  <a href="https://yesapi.online?utm_source=github&utm_medium=docs"><img src="https://img.shields.io/badge/OpenAI%20Compatible-/v1%20Endpoint-2563eb?style=for-the-badge" alt="OpenAI compatible endpoint"></a>
+  <a href="https://yesapi.online?utm_source=github&utm_medium=docs"><img src="https://img.shields.io/badge/%C2%A510-%2410%20Credit-f97316?style=for-the-badge" alt="CNY top up credit"></a>
+  <a href="https://yesapi.online?utm_source=github&utm_medium=docs"><img src="https://img.shields.io/badge/%241.50-%2410%20Credit-0f766e?style=for-the-badge" alt="USD top up credit"></a>
 </p>
 
-[中文版本](#中文版本) | [English](#english) | [控制台 / Console](https://yesapi.online) | [API 文档 / Docs](https://doc.yesapi.online)
+[中文版本](#中文版本) | [English](#english) | [控制台 / Console](https://yesapi.online?utm_source=github&utm_medium=docs) | [API 文档 / Docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
 
 </div>
 
@@ -36,9 +36,9 @@ YesAPI 面向开发者、AI 编程工具用户和自动化应用，提供低成�
 
 | 项目 | 数值 |
 | :--- | :--- |
-| 支付 | **¥10.00** |
-| 到账 | **$10.00 平台额度** |
-| 可用额度 | **约 $50.00 可用模型价值** |
+| 支付 | <span style="color:#dc2626"><strong>¥10.00</strong></span> |
+| 到账 | <span style="color:#dc2626"><strong>$10.00</strong></span> 平台额度 |
+| 可用额度 | 约 <span style="color:#dc2626"><strong>$50.00</strong></span> 可用模型价值 |
 
 以 0.2 倍率模型为例，`$10.00` 平台额度约等于 `$50.00` 可用模型价值。美元支付用户可按 **$1.50** 获得 **$10.00** 平台额度。
 
@@ -53,7 +53,7 @@ YesAPI 面向开发者、AI 编程工具用户和自动化应用，提供低成�
 ```text
 Base URL: https://yesapi.online/v1
 API Key:  你的 YesAPI 密钥
-Docs:     https://doc.yesapi.online
+Docs:     https://doc.yesapi.online?utm_source=github&utm_medium=docs
 ```
 
 ### Python 示例
@@ -88,7 +88,7 @@ print(response.choices[0].message.content)
 
 充值到账额度和模型倍率会共同影响实际可用量。低倍率模型消耗更少，同样余额可以使用更久。
 
-[立即使用 YesAPI](https://yesapi.online) | [查看 API 文档](https://doc.yesapi.online)
+[立即使用 YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs) | [查看 API 文档](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
 
 ---
 
@@ -109,9 +109,9 @@ Common use cases:
 
 | Item | Value |
 | :--- | :--- |
-| Payment | **$1.50** |
-| Platform credit | **$10.00** |
-| Usable value | **About $50.00 of model usage** |
+| Payment | <span style="color:#dc2626"><strong>$1.50</strong></span> |
+| Platform credit | <span style="color:#dc2626"><strong>$10.00</strong></span> |
+| Usable value | About <span style="color:#dc2626"><strong>$50.00</strong></span> of model usage |
 
 At a 0.2x model rate, `$10.00` platform credit can represent about `$50.00` of usable model value. Chinese users can pay **¥10.00** to receive **$10.00** platform credit.
 
@@ -126,7 +126,7 @@ At a 0.2x model rate, `$10.00` platform credit can represent about `$50.00` of u
 ```text
 Base URL: https://yesapi.online/v1
 API Key:  your YesAPI key
-Docs:     https://doc.yesapi.online
+Docs:     https://doc.yesapi.online?utm_source=github&utm_medium=docs
 ```
 
 ### TypeScript example
@@ -155,4 +155,17 @@ main();
 
 YesAPI works with OpenAI-compatible SDKs and tools such as Cursor, Claude Code, OpenCode, NextChat, LobeChat, Dify and LangChain. Supported model families include GPT, Claude, Gemini, DeepSeek, Qwen, Grok, image generation and video generation models.
 
-[Start with YesAPI](https://yesapi.online) | [Read the docs](https://doc.yesapi.online)
+## Developer Guides
+
+| Topic | Guide |
+| :--- | :--- |
+| Base URL setup | [Configure YesAPI Base URL](docs/quickstart/base-url-setup.md) |
+| API key | [Get a YesAPI API Key](docs/quickstart/get-api-key.md) |
+| Cursor | [Cursor Integration with YesAPI](docs/integrations/cursor-integration.md) |
+| Claude Code | [Claude Code Guide for YesAPI](docs/integrations/claude-code-guide.md) |
+| OpenCode | [OpenCode Setup with YesAPI](docs/integrations/opencode-setup.md) |
+| Missing /v1 | [Base URL Must Include /v1](docs/troubleshooting/base-url-v1.md) |
+| Streaming issue | [Stream Response Ended Unexpectedly](docs/troubleshooting/stream-response-ended.md) |
+| Roadmap | [Phase 2 Documentation Roadmap](docs/phase-2-roadmap.md) |
+
+[Start with YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs) | [Read the docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
