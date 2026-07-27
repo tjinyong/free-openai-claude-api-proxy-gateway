@@ -215,6 +215,8 @@ Developers, AI coding tool users, agent builders, API apps, startups, and high-f
 
 ---
 
-## SEO keywords
+## Related searches and use cases
 
-AI API 中转站, OpenAI API 中转站, Claude API 中转站, GPT API 中转, 大模型 API 中转, 低价 AI API, 低价 GPT API, Claude 中转, Cursor API 中转, Windsurf API 中转, Trae AI API, OpenAI API proxy, Claude API proxy, cheap GPT API, cheap Claude API, OpenAI compatible API gateway, AI API proxy gateway, AI API aggregator, GPT-5.6 Sol API, Claude Opus API, Gemini API gateway, DeepSeek API, YesAPI.
+中文用户通常会把这类服务称为 **AI API 中转站**、**OpenAI API 中转站**、**Claude API 中转站**、**GPT API 中转** 或 **大模型 API 中转**。YesAPI 适合需要低成本接入 GPT、Claude、Gemini、DeepSeek、Qwen、Grok 等模型的开发者，也适合 Cursor、Windsurf、Trae、Claude Code、OpenCode 等 AI 编程工具场景。
+
+English users may describe the same need as an **OpenAI API proxy**, **Claude API proxy**, **AI API proxy gateway**, **OpenAI-compatible API gateway**, or **cheap GPT API gateway**. YesAPI is designed for coding agents, API apps, automation workflows, startups, and high-frequency AI usage.
