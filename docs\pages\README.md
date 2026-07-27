@@ -1,4 +1,4 @@
-# YesAPI Developer Documentation
+# YesAPI GitHub Docs Index
 
 These **94 bilingual pages** correspond to the Chinese and English doc.yesapi.online sitemaps. Each page contains both 中文 and English sections.
 

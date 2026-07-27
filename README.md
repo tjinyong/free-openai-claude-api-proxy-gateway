@@ -34,11 +34,22 @@ YesAPI 面向开发者、AI 编程工具用户和自动化应用，提供低成�
 
 ### 价格与额度
 
-| 项目 | 数值 |
-| :--- | :--- |
-| 支付 | ![¥10.00](https://img.shields.io/badge/%C2%A510.00-dc2626?style=for-the-badge) |
-| 到账 | ![$10.00](https://img.shields.io/badge/%2410.00-dc2626?style=for-the-badge) 平台额度 |
-| 可用额度 | 约 ![$50.00](https://img.shields.io/badge/%2450.00-dc2626?style=for-the-badge) 可用模型价值 |
+<table>
+  <tr>
+    <td align="center"><strong>支付</strong></td>
+    <td align="center">→</td>
+    <td align="center"><strong>到账</strong></td>
+    <td align="center">→</td>
+    <td align="center"><strong>可用额度</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/%C2%A510.00-dc2626?style=for-the-badge" alt="¥10.00"></td>
+    <td align="center">→</td>
+    <td align="center"><img src="https://img.shields.io/badge/%2410.00-dc2626?style=for-the-badge" alt="$10.00"><br>平台额度</td>
+    <td align="center">→</td>
+    <td align="center">约 <img src="https://img.shields.io/badge/%2450.00-dc2626?style=for-the-badge" alt="$50.00"><br>可用模型价值</td>
+  </tr>
+</table>
 
 以 0.2 倍率模型为例，`$10.00` 平台额度约等于 `$50.00` 可用模型价值。美元支付用户可按 **$1.50** 获得 **$10.00** 平台额度。
 
@@ -107,11 +118,22 @@ Common use cases:
 
 ### Pricing and credit
 
-| Item | Value |
-| :--- | :--- |
-| Payment | ![$1.50](https://img.shields.io/badge/%241.50-dc2626?style=for-the-badge) |
-| Platform credit | ![$10.00](https://img.shields.io/badge/%2410.00-dc2626?style=for-the-badge) |
-| Usable value | About ![$50.00](https://img.shields.io/badge/%2450.00-dc2626?style=for-the-badge) of model usage |
+<table>
+  <tr>
+    <td align="center"><strong>Payment</strong></td>
+    <td align="center">→</td>
+    <td align="center"><strong>Platform credit</strong></td>
+    <td align="center">→</td>
+    <td align="center"><strong>Usable value</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/%241.50-dc2626?style=for-the-badge" alt="$1.50"></td>
+    <td align="center">→</td>
+    <td align="center"><img src="https://img.shields.io/badge/%2410.00-dc2626?style=for-the-badge" alt="$10.00"></td>
+    <td align="center">→</td>
+    <td align="center">About <img src="https://img.shields.io/badge/%2450.00-dc2626?style=for-the-badge" alt="$50.00"><br>of model usage</td>
+  </tr>
+</table>
 
 At a 0.2x model rate, `$10.00` platform credit can represent about `$50.00` of usable model value. Chinese users can pay **¥10.00** to receive **$10.00** platform credit.
 
@@ -159,16 +181,13 @@ YesAPI works with OpenAI-compatible SDKs and tools such as Cursor, Claude Code, 
 
 | Topic | Guide |
 | :--- | :--- |
-| 中文完整索引 | [94 个中文 GitHub 文档页](docs/zh/README.md) |
-| English full index | [94 English GitHub docs pages](docs/en/README.md) |
+| Bilingual docs index | [94 bilingual GitHub docs pages](docs/pages/README.md) |
 | Full repository index | [SUMMARY.md](SUMMARY.md) |
-| Base URL setup | [Configure YesAPI Base URL](docs/quickstart/base-url-setup.md) |
-| API key | [Get a YesAPI API Key](docs/quickstart/get-api-key.md) |
-| Cursor | [Cursor Integration with YesAPI](docs/integrations/cursor-integration.md) |
-| Claude Code | [Claude Code Guide for YesAPI](docs/integrations/claude-code-guide.md) |
-| OpenCode | [OpenCode Setup with YesAPI](docs/integrations/opencode-setup.md) |
-| Missing /v1 | [Base URL Must Include /v1](docs/troubleshooting/base-url-v1.md) |
-| Streaming issue | [Stream Response Ended Unexpectedly](docs/troubleshooting/stream-response-ended.md) |
-| Roadmap | [Phase 2 Documentation Roadmap](docs/phase-2-roadmap.md) |
+| Getting started | [Getting Started YesAPI Guide](docs/pages/getting-started.md) |
+| Model market | [Model Market YesAPI Guide](docs/pages/market.md) |
+| GPT example | [GPT 5 6 Sol YesAPI Guide](docs/pages/gpt-5-6-sol.md) |
+| Claude example | [Claude Opus 4 8 YesAPI Guide](docs/pages/claude-opus-4-8.md) |
+| Image example | [Midjourney V7 YesAPI Guide](docs/pages/midjourney-v7.md) |
+| Video example | [Sora 2 YesAPI Guide](docs/pages/sora-2.md) |
 
 [Start with YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs) | [Read the docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
