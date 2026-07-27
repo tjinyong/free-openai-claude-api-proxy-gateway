@@ -1,9 +1,9 @@
 # YesAPI AI API 中转站 | OpenAI Claude API Proxy Gateway
 
 <p align="center">
-  <a href="#中文说明">中文说明</a>
+  <a href="#中文版本">中文版本</a>
   &nbsp;|&nbsp;
-  <a href="#english-guide">English Guide</a>
+  <a href="#english-section">English Section</a>
   &nbsp;|&nbsp;
   <a href="https://yesapi.online">立即使用 / Start</a>
   &nbsp;|&nbsp;
@@ -30,7 +30,7 @@
 
 **YesAPI** provides an OpenAI-compatible API endpoint for multiple AI model providers. You can use one API key, one `/v1` base URL, and one balance across supported models.
 
-[**立即使用 YesAPI**](https://yesapi.online) · [**API 文档 / Docs**](https://doc.yesapi.online) · [**中文说明**](#中文说明) · [**English Guide**](#english-guide)
+[**立即使用 YesAPI**](https://yesapi.online) · [**API 文档 / Docs**](https://doc.yesapi.online) · [**中文版本**](#中文版本) · [**English Section**](#english-section)
 
 </div>
 
@@ -75,9 +75,9 @@ print(response.choices[0].message.content)
 
 ---
 
-<a id="中文说明"></a>
+<a id="中文版本"></a>
 
-# 中文说明
+# 中文版本
 
 ## ¥10 低门槛充值，到账 $10 额度
 
@@ -140,9 +140,9 @@ API 地址: https://yesapi.online/v1
 
 ---
 
-<a id="english-guide"></a>
+<a id="english-section"></a>
 
-# English Guide
+# English Section
 
 ## Pay $1.50, get $10 credit, use it across models
 
