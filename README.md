@@ -212,11 +212,3 @@ Yes. A single YesAPI balance can be used across supported providers and models.
 Developers, AI coding tool users, agent builders, API apps, startups, and high-frequency automation workflows.
 
 [Start with YesAPI](https://yesapi.online) · [Read Docs](https://doc.yesapi.online)
-
----
-
-## Related searches and use cases
-
-中文用户通常会把这类服务称为 **AI API 中转站**、**OpenAI API 中转站**、**Claude API 中转站**、**GPT API 中转** 或 **大模型 API 中转**。YesAPI 适合需要低成本接入 GPT、Claude、Gemini、DeepSeek、Qwen、Grok 等模型的开发者，也适合 Cursor、Windsurf、Trae、Claude Code、OpenCode 等 AI 编程工具场景。
-
-English users may describe the same need as an **OpenAI API proxy**, **Claude API proxy**, **AI API proxy gateway**, **OpenAI-compatible API gateway**, or **cheap GPT API gateway**. YesAPI is designed for coding agents, API apps, automation workflows, startups, and high-frequency AI usage.
