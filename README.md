@@ -227,4 +227,4 @@ print(response.choices[0].message.content)</code></pre>
 | Resource | Link |
 | :--- | :--- |
 | Website | [https://yesapi.online](https://yesapi.online) |
-| Documentation | [https://yesapi.online/docs](https://yesapi.online/docs) |
+| Documentation | [https://doc.yesapi.online/](https://doc.yesapi.online/) |
