@@ -191,3 +191,17 @@ YesAPI works with OpenAI-compatible SDKs and tools such as Cursor, Claude Code, 
 | Video example | [Sora 2 YesAPI Guide](docs/pages/sora-2.md) |
 
 [Start with YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs) | [Read the docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
+
+
+## Integration Tutorials
+
+- [Cursor OpenAI API Proxy Setup](docs/tutorials/cursor-openai-api-proxy.md)
+- [Claude Code API Proxy Setup](docs/tutorials/claude-code-api-proxy.md)
+- [OpenCode OpenAI-Compatible Base URL](docs/tutorials/opencode-openai-compatible-base-url.md)
+- [VSCode OpenAI Base URL](docs/tutorials/vscode-openai-base-url.md)
+- [NextChat API Proxy](docs/tutorials/nextchat-api-proxy.md)
+- [LobeChat API Proxy](docs/tutorials/lobechat-api-proxy.md)
+- [Dify OpenAI-Compatible API](docs/tutorials/dify-openai-compatible-api.md)
+- [LangChain Custom Base URL](docs/tutorials/langchain-custom-base-url.md)
+- [OpenAI SDK Custom Base URL](docs/tutorials/openai-sdk-custom-base-url.md)
+- [Cheap Claude API Proxy](docs/tutorials/cheap-claude-api-proxy.md)
