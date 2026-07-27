@@ -205,3 +205,6 @@ YesAPI works with OpenAI-compatible SDKs and tools such as Cursor, Claude Code, 
 - [LangChain Custom Base URL](docs/tutorials/langchain-custom-base-url.md)
 - [OpenAI SDK Custom Base URL](docs/tutorials/openai-sdk-custom-base-url.md)
 - [Cheap Claude API Proxy](docs/tutorials/cheap-claude-api-proxy.md)
+## Review Notes
+
+- [AI API Proxy Gateway Review / AI API 中转站选型笔记](docs/reviews/ai-api-proxy-gateway-review.md)
