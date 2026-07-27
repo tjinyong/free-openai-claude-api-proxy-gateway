@@ -1,195 +1,577 @@
 {
   "count": 94,
-  "zh": [
-    "https://doc.yesapi.online/getting-started",
-    "https://doc.yesapi.online/market",
-    "https://doc.yesapi.online/claude-opus-4-8",
-    "https://doc.yesapi.online/claude-opus-4-7",
-    "https://doc.yesapi.online/claude-haiku-4-5",
-    "https://doc.yesapi.online/claude-fable-5",
-    "https://doc.yesapi.online/claude-opus-4-6",
-    "https://doc.yesapi.online/claude-sonnet-5",
-    "https://doc.yesapi.online/claude-mythos-5",
-    "https://doc.yesapi.online/claude-opus-4-6-2",
-    "https://doc.yesapi.online/gpt-5-6-sol",
-    "https://doc.yesapi.online/gpt-5-6-terra",
-    "https://doc.yesapi.online/gpt-5-6-luna",
-    "https://doc.yesapi.online/gpt-5-5",
-    "https://doc.yesapi.online/gpt-5-4-pro",
-    "https://doc.yesapi.online/gpt-5-4-mini",
-    "https://doc.yesapi.online/gpt-5-4-nano",
-    "https://doc.yesapi.online/gpt-5-2-codex",
-    "https://doc.yesapi.online/gpt-5-1-codex",
-    "https://doc.yesapi.online/gpt-image-2",
-    "https://doc.yesapi.online/gpt-image-1-5",
-    "https://doc.yesapi.online/gpt-image-1-mini",
-    "https://doc.yesapi.online/gpt-5-5-pro",
-    "https://doc.yesapi.online/gemini-3-pro",
-    "https://doc.yesapi.online/gemini-2-5-pro",
-    "https://doc.yesapi.online/gemini-2-5-flash",
-    "https://doc.yesapi.online/deepseek-v3-2",
-    "https://doc.yesapi.online/deepseek-r1",
-    "https://doc.yesapi.online/grok-4",
-    "https://doc.yesapi.online/grok-4-fast",
-    "https://doc.yesapi.online/qwen3-max",
-    "https://doc.yesapi.online/qwen3-coder",
-    "https://doc.yesapi.online/kimi-k2",
-    "https://doc.yesapi.online/glm-4-6",
-    "https://doc.yesapi.online/llama-4-maverick",
-    "https://doc.yesapi.online/mistral-large-3",
-    "https://doc.yesapi.online/command-a",
-    "https://doc.yesapi.online/perplexity-sonar",
-    "https://doc.yesapi.online/minimax-m2",
-    "https://doc.yesapi.online/doubao-seed-1-6",
-    "https://doc.yesapi.online/ernie-5-0",
-    "https://doc.yesapi.online/hunyuan-turbo",
-    "https://doc.yesapi.online/yi-lightning",
-    "https://doc.yesapi.online/midjourney-v7",
-    "https://doc.yesapi.online/midjourney-v6-1",
-    "https://doc.yesapi.online/nano-banana-pro",
-    "https://doc.yesapi.online/nano-banana",
-    "https://doc.yesapi.online/gemini-flash-image",
-    "https://doc.yesapi.online/seedream-4-5",
-    "https://doc.yesapi.online/seedream-4-0",
-    "https://doc.yesapi.online/flux-2-pro",
-    "https://doc.yesapi.online/flux-1-kontext",
-    "https://doc.yesapi.online/imagen-4",
-    "https://doc.yesapi.online/ideogram-3-0",
-    "https://doc.yesapi.online/recraft-v3",
-    "https://doc.yesapi.online/stable-diffusion-3-5",
-    "https://doc.yesapi.online/dall-e-3",
-    "https://doc.yesapi.online/qwen-image",
-    "https://doc.yesapi.online/hunyuan-image",
-    "https://doc.yesapi.online/minimax-image",
-    "https://doc.yesapi.online/kling-image",
-    "https://doc.yesapi.online/sora-2",
-    "https://doc.yesapi.online/sora-turbo",
-    "https://doc.yesapi.online/veo-3-1",
-    "https://doc.yesapi.online/veo-3",
-    "https://doc.yesapi.online/kling-2-5-turbo",
-    "https://doc.yesapi.online/kling-2-1",
-    "https://doc.yesapi.online/runway-gen-4",
-    "https://doc.yesapi.online/runway-gen-3-alpha",
-    "https://doc.yesapi.online/pika-2-2",
-    "https://doc.yesapi.online/luma-ray-2",
-    "https://doc.yesapi.online/hailuo-02",
-    "https://doc.yesapi.online/seedance-1-0-pro",
-    "https://doc.yesapi.online/wan-2-2",
-    "https://doc.yesapi.online/pixverse-v5",
-    "https://doc.yesapi.online/vidu-q1",
-    "https://doc.yesapi.online/hunyuan-video",
-    "https://doc.yesapi.online/minimax-video-01",
-    "https://doc.yesapi.online/stable-video-diffusion",
-    "https://doc.yesapi.online/suno-v5",
-    "https://doc.yesapi.online/suno-v4-5",
-    "https://doc.yesapi.online/udio-2",
-    "https://doc.yesapi.online/udio-1-5",
-    "https://doc.yesapi.online/stable-audio-2-0",
-    "https://doc.yesapi.online/elevenlabs-music",
-    "https://doc.yesapi.online/mureka-o1",
-    "https://doc.yesapi.online/ace-step",
-    "https://doc.yesapi.online/musicgen",
-    "https://doc.yesapi.online/audiocraft",
-    "https://doc.yesapi.online/lyra",
-    "https://doc.yesapi.online/qwen-audio",
-    "https://doc.yesapi.online/gpt-4o-audio",
-    "https://doc.yesapi.online/minimax-speech",
-    "https://doc.yesapi.online/fish-speech"
-  ],
-  "en": [
-    "https://doc.yesapi.online/en/getting-started",
-    "https://doc.yesapi.online/en/market",
-    "https://doc.yesapi.online/en/claude-opus-4-8",
-    "https://doc.yesapi.online/en/claude-opus-4-7",
-    "https://doc.yesapi.online/en/claude-haiku-4-5",
-    "https://doc.yesapi.online/en/claude-fable-5",
-    "https://doc.yesapi.online/en/claude-opus-4-6",
-    "https://doc.yesapi.online/en/claude-sonnet-5",
-    "https://doc.yesapi.online/en/claude-mythos-5",
-    "https://doc.yesapi.online/en/claude-opus-4-6-2",
-    "https://doc.yesapi.online/en/gpt-5-6-sol",
-    "https://doc.yesapi.online/en/gpt-5-6-terra",
-    "https://doc.yesapi.online/en/gpt-5-6-luna",
-    "https://doc.yesapi.online/en/gpt-5-5",
-    "https://doc.yesapi.online/en/gpt-5-4-pro",
-    "https://doc.yesapi.online/en/gpt-5-4-mini",
-    "https://doc.yesapi.online/en/gpt-5-4-nano",
-    "https://doc.yesapi.online/en/gpt-5-2-codex",
-    "https://doc.yesapi.online/en/gpt-5-1-codex",
-    "https://doc.yesapi.online/en/gpt-image-2",
-    "https://doc.yesapi.online/en/gpt-image-1-5",
-    "https://doc.yesapi.online/en/gpt-image-1-mini",
-    "https://doc.yesapi.online/en/gpt-5-5-pro",
-    "https://doc.yesapi.online/en/gemini-3-pro",
-    "https://doc.yesapi.online/en/gemini-2-5-pro",
-    "https://doc.yesapi.online/en/gemini-2-5-flash",
-    "https://doc.yesapi.online/en/deepseek-v3-2",
-    "https://doc.yesapi.online/en/deepseek-r1",
-    "https://doc.yesapi.online/en/grok-4",
-    "https://doc.yesapi.online/en/grok-4-fast",
-    "https://doc.yesapi.online/en/qwen3-max",
-    "https://doc.yesapi.online/en/qwen3-coder",
-    "https://doc.yesapi.online/en/kimi-k2",
-    "https://doc.yesapi.online/en/glm-4-6",
-    "https://doc.yesapi.online/en/llama-4-maverick",
-    "https://doc.yesapi.online/en/mistral-large-3",
-    "https://doc.yesapi.online/en/command-a",
-    "https://doc.yesapi.online/en/perplexity-sonar",
-    "https://doc.yesapi.online/en/minimax-m2",
-    "https://doc.yesapi.online/en/doubao-seed-1-6",
-    "https://doc.yesapi.online/en/ernie-5-0",
-    "https://doc.yesapi.online/en/hunyuan-turbo",
-    "https://doc.yesapi.online/en/yi-lightning",
-    "https://doc.yesapi.online/en/midjourney-v7",
-    "https://doc.yesapi.online/en/midjourney-v6-1",
-    "https://doc.yesapi.online/en/nano-banana-pro",
-    "https://doc.yesapi.online/en/nano-banana",
-    "https://doc.yesapi.online/en/gemini-flash-image",
-    "https://doc.yesapi.online/en/seedream-4-5",
-    "https://doc.yesapi.online/en/seedream-4-0",
-    "https://doc.yesapi.online/en/flux-2-pro",
-    "https://doc.yesapi.online/en/flux-1-kontext",
-    "https://doc.yesapi.online/en/imagen-4",
-    "https://doc.yesapi.online/en/ideogram-3-0",
-    "https://doc.yesapi.online/en/recraft-v3",
-    "https://doc.yesapi.online/en/stable-diffusion-3-5",
-    "https://doc.yesapi.online/en/dall-e-3",
-    "https://doc.yesapi.online/en/qwen-image",
-    "https://doc.yesapi.online/en/hunyuan-image",
-    "https://doc.yesapi.online/en/minimax-image",
-    "https://doc.yesapi.online/en/kling-image",
-    "https://doc.yesapi.online/en/sora-2",
-    "https://doc.yesapi.online/en/sora-turbo",
-    "https://doc.yesapi.online/en/veo-3-1",
-    "https://doc.yesapi.online/en/veo-3",
-    "https://doc.yesapi.online/en/kling-2-5-turbo",
-    "https://doc.yesapi.online/en/kling-2-1",
-    "https://doc.yesapi.online/en/runway-gen-4",
-    "https://doc.yesapi.online/en/runway-gen-3-alpha",
-    "https://doc.yesapi.online/en/pika-2-2",
-    "https://doc.yesapi.online/en/luma-ray-2",
-    "https://doc.yesapi.online/en/hailuo-02",
-    "https://doc.yesapi.online/en/seedance-1-0-pro",
-    "https://doc.yesapi.online/en/wan-2-2",
-    "https://doc.yesapi.online/en/pixverse-v5",
-    "https://doc.yesapi.online/en/vidu-q1",
-    "https://doc.yesapi.online/en/hunyuan-video",
-    "https://doc.yesapi.online/en/minimax-video-01",
-    "https://doc.yesapi.online/en/stable-video-diffusion",
-    "https://doc.yesapi.online/en/suno-v5",
-    "https://doc.yesapi.online/en/suno-v4-5",
-    "https://doc.yesapi.online/en/udio-2",
-    "https://doc.yesapi.online/en/udio-1-5",
-    "https://doc.yesapi.online/en/stable-audio-2-0",
-    "https://doc.yesapi.online/en/elevenlabs-music",
-    "https://doc.yesapi.online/en/mureka-o1",
-    "https://doc.yesapi.online/en/ace-step",
-    "https://doc.yesapi.online/en/musicgen",
-    "https://doc.yesapi.online/en/audiocraft",
-    "https://doc.yesapi.online/en/lyra",
-    "https://doc.yesapi.online/en/qwen-audio",
-    "https://doc.yesapi.online/en/gpt-4o-audio",
-    "https://doc.yesapi.online/en/minimax-speech",
-    "https://doc.yesapi.online/en/fish-speech"
+  "zh": {
+    "sitemap": "https://doc.yesapi.online/sitemap.xml",
+    "count": 94
+  },
+  "en": {
+    "sitemap": "https://doc.yesapi.online/en/sitemap.xml",
+    "count": 94
+  },
+  "pages": [
+    {
+      "slug": "ace-step",
+      "page": "docs/pages/ace-step.md",
+      "zh": "https://doc.yesapi.online/ace-step",
+      "en": "https://doc.yesapi.online/en/ace-step"
+    },
+    {
+      "slug": "audiocraft",
+      "page": "docs/pages/audiocraft.md",
+      "zh": "https://doc.yesapi.online/audiocraft",
+      "en": "https://doc.yesapi.online/en/audiocraft"
+    },
+    {
+      "slug": "claude-fable-5",
+      "page": "docs/pages/claude-fable-5.md",
+      "zh": "https://doc.yesapi.online/claude-fable-5",
+      "en": "https://doc.yesapi.online/en/claude-fable-5"
+    },
+    {
+      "slug": "claude-haiku-4-5",
+      "page": "docs/pages/claude-haiku-4-5.md",
+      "zh": "https://doc.yesapi.online/claude-haiku-4-5",
+      "en": "https://doc.yesapi.online/en/claude-haiku-4-5"
+    },
+    {
+      "slug": "claude-mythos-5",
+      "page": "docs/pages/claude-mythos-5.md",
+      "zh": "https://doc.yesapi.online/claude-mythos-5",
+      "en": "https://doc.yesapi.online/en/claude-mythos-5"
+    },
+    {
+      "slug": "claude-opus-4-6",
+      "page": "docs/pages/claude-opus-4-6.md",
+      "zh": "https://doc.yesapi.online/claude-opus-4-6",
+      "en": "https://doc.yesapi.online/en/claude-opus-4-6"
+    },
+    {
+      "slug": "claude-opus-4-6-2",
+      "page": "docs/pages/claude-opus-4-6-2.md",
+      "zh": "https://doc.yesapi.online/claude-opus-4-6-2",
+      "en": "https://doc.yesapi.online/en/claude-opus-4-6-2"
+    },
+    {
+      "slug": "claude-opus-4-7",
+      "page": "docs/pages/claude-opus-4-7.md",
+      "zh": "https://doc.yesapi.online/claude-opus-4-7",
+      "en": "https://doc.yesapi.online/en/claude-opus-4-7"
+    },
+    {
+      "slug": "claude-opus-4-8",
+      "page": "docs/pages/claude-opus-4-8.md",
+      "zh": "https://doc.yesapi.online/claude-opus-4-8",
+      "en": "https://doc.yesapi.online/en/claude-opus-4-8"
+    },
+    {
+      "slug": "claude-sonnet-5",
+      "page": "docs/pages/claude-sonnet-5.md",
+      "zh": "https://doc.yesapi.online/claude-sonnet-5",
+      "en": "https://doc.yesapi.online/en/claude-sonnet-5"
+    },
+    {
+      "slug": "command-a",
+      "page": "docs/pages/command-a.md",
+      "zh": "https://doc.yesapi.online/command-a",
+      "en": "https://doc.yesapi.online/en/command-a"
+    },
+    {
+      "slug": "dall-e-3",
+      "page": "docs/pages/dall-e-3.md",
+      "zh": "https://doc.yesapi.online/dall-e-3",
+      "en": "https://doc.yesapi.online/en/dall-e-3"
+    },
+    {
+      "slug": "deepseek-r1",
+      "page": "docs/pages/deepseek-r1.md",
+      "zh": "https://doc.yesapi.online/deepseek-r1",
+      "en": "https://doc.yesapi.online/en/deepseek-r1"
+    },
+    {
+      "slug": "deepseek-v3-2",
+      "page": "docs/pages/deepseek-v3-2.md",
+      "zh": "https://doc.yesapi.online/deepseek-v3-2",
+      "en": "https://doc.yesapi.online/en/deepseek-v3-2"
+    },
+    {
+      "slug": "doubao-seed-1-6",
+      "page": "docs/pages/doubao-seed-1-6.md",
+      "zh": "https://doc.yesapi.online/doubao-seed-1-6",
+      "en": "https://doc.yesapi.online/en/doubao-seed-1-6"
+    },
+    {
+      "slug": "elevenlabs-music",
+      "page": "docs/pages/elevenlabs-music.md",
+      "zh": "https://doc.yesapi.online/elevenlabs-music",
+      "en": "https://doc.yesapi.online/en/elevenlabs-music"
+    },
+    {
+      "slug": "ernie-5-0",
+      "page": "docs/pages/ernie-5-0.md",
+      "zh": "https://doc.yesapi.online/ernie-5-0",
+      "en": "https://doc.yesapi.online/en/ernie-5-0"
+    },
+    {
+      "slug": "fish-speech",
+      "page": "docs/pages/fish-speech.md",
+      "zh": "https://doc.yesapi.online/fish-speech",
+      "en": "https://doc.yesapi.online/en/fish-speech"
+    },
+    {
+      "slug": "flux-1-kontext",
+      "page": "docs/pages/flux-1-kontext.md",
+      "zh": "https://doc.yesapi.online/flux-1-kontext",
+      "en": "https://doc.yesapi.online/en/flux-1-kontext"
+    },
+    {
+      "slug": "flux-2-pro",
+      "page": "docs/pages/flux-2-pro.md",
+      "zh": "https://doc.yesapi.online/flux-2-pro",
+      "en": "https://doc.yesapi.online/en/flux-2-pro"
+    },
+    {
+      "slug": "gemini-2-5-flash",
+      "page": "docs/pages/gemini-2-5-flash.md",
+      "zh": "https://doc.yesapi.online/gemini-2-5-flash",
+      "en": "https://doc.yesapi.online/en/gemini-2-5-flash"
+    },
+    {
+      "slug": "gemini-2-5-pro",
+      "page": "docs/pages/gemini-2-5-pro.md",
+      "zh": "https://doc.yesapi.online/gemini-2-5-pro",
+      "en": "https://doc.yesapi.online/en/gemini-2-5-pro"
+    },
+    {
+      "slug": "gemini-3-pro",
+      "page": "docs/pages/gemini-3-pro.md",
+      "zh": "https://doc.yesapi.online/gemini-3-pro",
+      "en": "https://doc.yesapi.online/en/gemini-3-pro"
+    },
+    {
+      "slug": "gemini-flash-image",
+      "page": "docs/pages/gemini-flash-image.md",
+      "zh": "https://doc.yesapi.online/gemini-flash-image",
+      "en": "https://doc.yesapi.online/en/gemini-flash-image"
+    },
+    {
+      "slug": "getting-started",
+      "page": "docs/pages/getting-started.md",
+      "zh": "https://doc.yesapi.online/getting-started",
+      "en": "https://doc.yesapi.online/en/getting-started"
+    },
+    {
+      "slug": "glm-4-6",
+      "page": "docs/pages/glm-4-6.md",
+      "zh": "https://doc.yesapi.online/glm-4-6",
+      "en": "https://doc.yesapi.online/en/glm-4-6"
+    },
+    {
+      "slug": "gpt-4o-audio",
+      "page": "docs/pages/gpt-4o-audio.md",
+      "zh": "https://doc.yesapi.online/gpt-4o-audio",
+      "en": "https://doc.yesapi.online/en/gpt-4o-audio"
+    },
+    {
+      "slug": "gpt-5-1-codex",
+      "page": "docs/pages/gpt-5-1-codex.md",
+      "zh": "https://doc.yesapi.online/gpt-5-1-codex",
+      "en": "https://doc.yesapi.online/en/gpt-5-1-codex"
+    },
+    {
+      "slug": "gpt-5-2-codex",
+      "page": "docs/pages/gpt-5-2-codex.md",
+      "zh": "https://doc.yesapi.online/gpt-5-2-codex",
+      "en": "https://doc.yesapi.online/en/gpt-5-2-codex"
+    },
+    {
+      "slug": "gpt-5-4-mini",
+      "page": "docs/pages/gpt-5-4-mini.md",
+      "zh": "https://doc.yesapi.online/gpt-5-4-mini",
+      "en": "https://doc.yesapi.online/en/gpt-5-4-mini"
+    },
+    {
+      "slug": "gpt-5-4-nano",
+      "page": "docs/pages/gpt-5-4-nano.md",
+      "zh": "https://doc.yesapi.online/gpt-5-4-nano",
+      "en": "https://doc.yesapi.online/en/gpt-5-4-nano"
+    },
+    {
+      "slug": "gpt-5-4-pro",
+      "page": "docs/pages/gpt-5-4-pro.md",
+      "zh": "https://doc.yesapi.online/gpt-5-4-pro",
+      "en": "https://doc.yesapi.online/en/gpt-5-4-pro"
+    },
+    {
+      "slug": "gpt-5-5",
+      "page": "docs/pages/gpt-5-5.md",
+      "zh": "https://doc.yesapi.online/gpt-5-5",
+      "en": "https://doc.yesapi.online/en/gpt-5-5"
+    },
+    {
+      "slug": "gpt-5-5-pro",
+      "page": "docs/pages/gpt-5-5-pro.md",
+      "zh": "https://doc.yesapi.online/gpt-5-5-pro",
+      "en": "https://doc.yesapi.online/en/gpt-5-5-pro"
+    },
+    {
+      "slug": "gpt-5-6-luna",
+      "page": "docs/pages/gpt-5-6-luna.md",
+      "zh": "https://doc.yesapi.online/gpt-5-6-luna",
+      "en": "https://doc.yesapi.online/en/gpt-5-6-luna"
+    },
+    {
+      "slug": "gpt-5-6-sol",
+      "page": "docs/pages/gpt-5-6-sol.md",
+      "zh": "https://doc.yesapi.online/gpt-5-6-sol",
+      "en": "https://doc.yesapi.online/en/gpt-5-6-sol"
+    },
+    {
+      "slug": "gpt-5-6-terra",
+      "page": "docs/pages/gpt-5-6-terra.md",
+      "zh": "https://doc.yesapi.online/gpt-5-6-terra",
+      "en": "https://doc.yesapi.online/en/gpt-5-6-terra"
+    },
+    {
+      "slug": "gpt-image-1-5",
+      "page": "docs/pages/gpt-image-1-5.md",
+      "zh": "https://doc.yesapi.online/gpt-image-1-5",
+      "en": "https://doc.yesapi.online/en/gpt-image-1-5"
+    },
+    {
+      "slug": "gpt-image-1-mini",
+      "page": "docs/pages/gpt-image-1-mini.md",
+      "zh": "https://doc.yesapi.online/gpt-image-1-mini",
+      "en": "https://doc.yesapi.online/en/gpt-image-1-mini"
+    },
+    {
+      "slug": "gpt-image-2",
+      "page": "docs/pages/gpt-image-2.md",
+      "zh": "https://doc.yesapi.online/gpt-image-2",
+      "en": "https://doc.yesapi.online/en/gpt-image-2"
+    },
+    {
+      "slug": "grok-4",
+      "page": "docs/pages/grok-4.md",
+      "zh": "https://doc.yesapi.online/grok-4",
+      "en": "https://doc.yesapi.online/en/grok-4"
+    },
+    {
+      "slug": "grok-4-fast",
+      "page": "docs/pages/grok-4-fast.md",
+      "zh": "https://doc.yesapi.online/grok-4-fast",
+      "en": "https://doc.yesapi.online/en/grok-4-fast"
+    },
+    {
+      "slug": "hailuo-02",
+      "page": "docs/pages/hailuo-02.md",
+      "zh": "https://doc.yesapi.online/hailuo-02",
+      "en": "https://doc.yesapi.online/en/hailuo-02"
+    },
+    {
+      "slug": "hunyuan-image",
+      "page": "docs/pages/hunyuan-image.md",
+      "zh": "https://doc.yesapi.online/hunyuan-image",
+      "en": "https://doc.yesapi.online/en/hunyuan-image"
+    },
+    {
+      "slug": "hunyuan-turbo",
+      "page": "docs/pages/hunyuan-turbo.md",
+      "zh": "https://doc.yesapi.online/hunyuan-turbo",
+      "en": "https://doc.yesapi.online/en/hunyuan-turbo"
+    },
+    {
+      "slug": "hunyuan-video",
+      "page": "docs/pages/hunyuan-video.md",
+      "zh": "https://doc.yesapi.online/hunyuan-video",
+      "en": "https://doc.yesapi.online/en/hunyuan-video"
+    },
+    {
+      "slug": "ideogram-3-0",
+      "page": "docs/pages/ideogram-3-0.md",
+      "zh": "https://doc.yesapi.online/ideogram-3-0",
+      "en": "https://doc.yesapi.online/en/ideogram-3-0"
+    },
+    {
+      "slug": "imagen-4",
+      "page": "docs/pages/imagen-4.md",
+      "zh": "https://doc.yesapi.online/imagen-4",
+      "en": "https://doc.yesapi.online/en/imagen-4"
+    },
+    {
+      "slug": "kimi-k2",
+      "page": "docs/pages/kimi-k2.md",
+      "zh": "https://doc.yesapi.online/kimi-k2",
+      "en": "https://doc.yesapi.online/en/kimi-k2"
+    },
+    {
+      "slug": "kling-2-1",
+      "page": "docs/pages/kling-2-1.md",
+      "zh": "https://doc.yesapi.online/kling-2-1",
+      "en": "https://doc.yesapi.online/en/kling-2-1"
+    },
+    {
+      "slug": "kling-2-5-turbo",
+      "page": "docs/pages/kling-2-5-turbo.md",
+      "zh": "https://doc.yesapi.online/kling-2-5-turbo",
+      "en": "https://doc.yesapi.online/en/kling-2-5-turbo"
+    },
+    {
+      "slug": "kling-image",
+      "page": "docs/pages/kling-image.md",
+      "zh": "https://doc.yesapi.online/kling-image",
+      "en": "https://doc.yesapi.online/en/kling-image"
+    },
+    {
+      "slug": "llama-4-maverick",
+      "page": "docs/pages/llama-4-maverick.md",
+      "zh": "https://doc.yesapi.online/llama-4-maverick",
+      "en": "https://doc.yesapi.online/en/llama-4-maverick"
+    },
+    {
+      "slug": "luma-ray-2",
+      "page": "docs/pages/luma-ray-2.md",
+      "zh": "https://doc.yesapi.online/luma-ray-2",
+      "en": "https://doc.yesapi.online/en/luma-ray-2"
+    },
+    {
+      "slug": "lyra",
+      "page": "docs/pages/lyra.md",
+      "zh": "https://doc.yesapi.online/lyra",
+      "en": "https://doc.yesapi.online/en/lyra"
+    },
+    {
+      "slug": "market",
+      "page": "docs/pages/market.md",
+      "zh": "https://doc.yesapi.online/market",
+      "en": "https://doc.yesapi.online/en/market"
+    },
+    {
+      "slug": "midjourney-v6-1",
+      "page": "docs/pages/midjourney-v6-1.md",
+      "zh": "https://doc.yesapi.online/midjourney-v6-1",
+      "en": "https://doc.yesapi.online/en/midjourney-v6-1"
+    },
+    {
+      "slug": "midjourney-v7",
+      "page": "docs/pages/midjourney-v7.md",
+      "zh": "https://doc.yesapi.online/midjourney-v7",
+      "en": "https://doc.yesapi.online/en/midjourney-v7"
+    },
+    {
+      "slug": "minimax-image",
+      "page": "docs/pages/minimax-image.md",
+      "zh": "https://doc.yesapi.online/minimax-image",
+      "en": "https://doc.yesapi.online/en/minimax-image"
+    },
+    {
+      "slug": "minimax-m2",
+      "page": "docs/pages/minimax-m2.md",
+      "zh": "https://doc.yesapi.online/minimax-m2",
+      "en": "https://doc.yesapi.online/en/minimax-m2"
+    },
+    {
+      "slug": "minimax-speech",
+      "page": "docs/pages/minimax-speech.md",
+      "zh": "https://doc.yesapi.online/minimax-speech",
+      "en": "https://doc.yesapi.online/en/minimax-speech"
+    },
+    {
+      "slug": "minimax-video-01",
+      "page": "docs/pages/minimax-video-01.md",
+      "zh": "https://doc.yesapi.online/minimax-video-01",
+      "en": "https://doc.yesapi.online/en/minimax-video-01"
+    },
+    {
+      "slug": "mistral-large-3",
+      "page": "docs/pages/mistral-large-3.md",
+      "zh": "https://doc.yesapi.online/mistral-large-3",
+      "en": "https://doc.yesapi.online/en/mistral-large-3"
+    },
+    {
+      "slug": "mureka-o1",
+      "page": "docs/pages/mureka-o1.md",
+      "zh": "https://doc.yesapi.online/mureka-o1",
+      "en": "https://doc.yesapi.online/en/mureka-o1"
+    },
+    {
+      "slug": "musicgen",
+      "page": "docs/pages/musicgen.md",
+      "zh": "https://doc.yesapi.online/musicgen",
+      "en": "https://doc.yesapi.online/en/musicgen"
+    },
+    {
+      "slug": "nano-banana",
+      "page": "docs/pages/nano-banana.md",
+      "zh": "https://doc.yesapi.online/nano-banana",
+      "en": "https://doc.yesapi.online/en/nano-banana"
+    },
+    {
+      "slug": "nano-banana-pro",
+      "page": "docs/pages/nano-banana-pro.md",
+      "zh": "https://doc.yesapi.online/nano-banana-pro",
+      "en": "https://doc.yesapi.online/en/nano-banana-pro"
+    },
+    {
+      "slug": "perplexity-sonar",
+      "page": "docs/pages/perplexity-sonar.md",
+      "zh": "https://doc.yesapi.online/perplexity-sonar",
+      "en": "https://doc.yesapi.online/en/perplexity-sonar"
+    },
+    {
+      "slug": "pika-2-2",
+      "page": "docs/pages/pika-2-2.md",
+      "zh": "https://doc.yesapi.online/pika-2-2",
+      "en": "https://doc.yesapi.online/en/pika-2-2"
+    },
+    {
+      "slug": "pixverse-v5",
+      "page": "docs/pages/pixverse-v5.md",
+      "zh": "https://doc.yesapi.online/pixverse-v5",
+      "en": "https://doc.yesapi.online/en/pixverse-v5"
+    },
+    {
+      "slug": "qwen-audio",
+      "page": "docs/pages/qwen-audio.md",
+      "zh": "https://doc.yesapi.online/qwen-audio",
+      "en": "https://doc.yesapi.online/en/qwen-audio"
+    },
+    {
+      "slug": "qwen-image",
+      "page": "docs/pages/qwen-image.md",
+      "zh": "https://doc.yesapi.online/qwen-image",
+      "en": "https://doc.yesapi.online/en/qwen-image"
+    },
+    {
+      "slug": "qwen3-coder",
+      "page": "docs/pages/qwen3-coder.md",
+      "zh": "https://doc.yesapi.online/qwen3-coder",
+      "en": "https://doc.yesapi.online/en/qwen3-coder"
+    },
+    {
+      "slug": "qwen3-max",
+      "page": "docs/pages/qwen3-max.md",
+      "zh": "https://doc.yesapi.online/qwen3-max",
+      "en": "https://doc.yesapi.online/en/qwen3-max"
+    },
+    {
+      "slug": "recraft-v3",
+      "page": "docs/pages/recraft-v3.md",
+      "zh": "https://doc.yesapi.online/recraft-v3",
+      "en": "https://doc.yesapi.online/en/recraft-v3"
+    },
+    {
+      "slug": "runway-gen-3-alpha",
+      "page": "docs/pages/runway-gen-3-alpha.md",
+      "zh": "https://doc.yesapi.online/runway-gen-3-alpha",
+      "en": "https://doc.yesapi.online/en/runway-gen-3-alpha"
+    },
+    {
+      "slug": "runway-gen-4",
+      "page": "docs/pages/runway-gen-4.md",
+      "zh": "https://doc.yesapi.online/runway-gen-4",
+      "en": "https://doc.yesapi.online/en/runway-gen-4"
+    },
+    {
+      "slug": "seedance-1-0-pro",
+      "page": "docs/pages/seedance-1-0-pro.md",
+      "zh": "https://doc.yesapi.online/seedance-1-0-pro",
+      "en": "https://doc.yesapi.online/en/seedance-1-0-pro"
+    },
+    {
+      "slug": "seedream-4-0",
+      "page": "docs/pages/seedream-4-0.md",
+      "zh": "https://doc.yesapi.online/seedream-4-0",
+      "en": "https://doc.yesapi.online/en/seedream-4-0"
+    },
+    {
+      "slug": "seedream-4-5",
+      "page": "docs/pages/seedream-4-5.md",
+      "zh": "https://doc.yesapi.online/seedream-4-5",
+      "en": "https://doc.yesapi.online/en/seedream-4-5"
+    },
+    {
+      "slug": "sora-2",
+      "page": "docs/pages/sora-2.md",
+      "zh": "https://doc.yesapi.online/sora-2",
+      "en": "https://doc.yesapi.online/en/sora-2"
+    },
+    {
+      "slug": "sora-turbo",
+      "page": "docs/pages/sora-turbo.md",
+      "zh": "https://doc.yesapi.online/sora-turbo",
+      "en": "https://doc.yesapi.online/en/sora-turbo"
+    },
+    {
+      "slug": "stable-audio-2-0",
+      "page": "docs/pages/stable-audio-2-0.md",
+      "zh": "https://doc.yesapi.online/stable-audio-2-0",
+      "en": "https://doc.yesapi.online/en/stable-audio-2-0"
+    },
+    {
+      "slug": "stable-diffusion-3-5",
+      "page": "docs/pages/stable-diffusion-3-5.md",
+      "zh": "https://doc.yesapi.online/stable-diffusion-3-5",
+      "en": "https://doc.yesapi.online/en/stable-diffusion-3-5"
+    },
+    {
+      "slug": "stable-video-diffusion",
+      "page": "docs/pages/stable-video-diffusion.md",
+      "zh": "https://doc.yesapi.online/stable-video-diffusion",
+      "en": "https://doc.yesapi.online/en/stable-video-diffusion"
+    },
+    {
+      "slug": "suno-v4-5",
+      "page": "docs/pages/suno-v4-5.md",
+      "zh": "https://doc.yesapi.online/suno-v4-5",
+      "en": "https://doc.yesapi.online/en/suno-v4-5"
+    },
+    {
+      "slug": "suno-v5",
+      "page": "docs/pages/suno-v5.md",
+      "zh": "https://doc.yesapi.online/suno-v5",
+      "en": "https://doc.yesapi.online/en/suno-v5"
+    },
+    {
+      "slug": "udio-1-5",
+      "page": "docs/pages/udio-1-5.md",
+      "zh": "https://doc.yesapi.online/udio-1-5",
+      "en": "https://doc.yesapi.online/en/udio-1-5"
+    },
+    {
+      "slug": "udio-2",
+      "page": "docs/pages/udio-2.md",
+      "zh": "https://doc.yesapi.online/udio-2",
+      "en": "https://doc.yesapi.online/en/udio-2"
+    },
+    {
+      "slug": "veo-3",
+      "page": "docs/pages/veo-3.md",
+      "zh": "https://doc.yesapi.online/veo-3",
+      "en": "https://doc.yesapi.online/en/veo-3"
+    },
+    {
+      "slug": "veo-3-1",
+      "page": "docs/pages/veo-3-1.md",
+      "zh": "https://doc.yesapi.online/veo-3-1",
+      "en": "https://doc.yesapi.online/en/veo-3-1"
+    },
+    {
+      "slug": "vidu-q1",
+      "page": "docs/pages/vidu-q1.md",
+      "zh": "https://doc.yesapi.online/vidu-q1",
+      "en": "https://doc.yesapi.online/en/vidu-q1"
+    },
+    {
+      "slug": "wan-2-2",
+      "page": "docs/pages/wan-2-2.md",
+      "zh": "https://doc.yesapi.online/wan-2-2",
+      "en": "https://doc.yesapi.online/en/wan-2-2"
+    },
+    {
+      "slug": "yi-lightning",
+      "page": "docs/pages/yi-lightning.md",
+      "zh": "https://doc.yesapi.online/yi-lightning",
+      "en": "https://doc.yesapi.online/en/yi-lightning"
+    }
   ]
 }

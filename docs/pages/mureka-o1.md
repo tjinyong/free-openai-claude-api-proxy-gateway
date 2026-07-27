@@ -4,33 +4,31 @@
 
 ---
 
-> **YesAPI pricing highlight**  
-> 中文用户：**¥10.00 支付 → $10.00 平台额度 → 约 $50.00 可用模型价值**  
-> Global users: **[中文](#中文版本) | [English](#english-version)
-
----.50 payment → $10.00 platform credit → about $50.00 usable model value**  
+> **YesAPI price note**  
+> 中文用户：**¥10.00 支付 -> $10.00 平台额度 -> 约 $50.00 可用模型价值**  
+> Global users: **$1.50 payment -> $10.00 platform credit -> about $50.00 usable model value**  
 > [Open YesAPI Console](https://yesapi.online?utm_source=github&utm_medium=docs)
 
 <a id="中文版本"></a>
 
 ## 中文版本
 
-通过 YesAPI 调用 Mureka O1，适合语音、音乐、音频生成和内容生产流程。
+通过 YesAPI 调用 Mureka O1，适合需要低成本接入 OpenAI 兼容模型与接口 的开发者、AI 编程工具和自动化应用。
 
 ### 基本信息
 
 | 项目 | 配置 |
 | :--- | :--- |
-| 官方文档 | [Mureka O1](https://doc.yesapi.online/mureka-o1) |
-| GitHub 分类 | 音频与音乐模型 |
+| 官方文档 | [Mureka O1](https://doc.yesapi.online/mureka-o1?utm_source=github&utm_medium=docs) |
+| GitHub 分类 | OpenAI 兼容模型与接口 |
 | Base URL | `https://yesapi.online/v1` |
 | 模型名称 | `mureka-o1` |
 
 ### 适用场景
 
-- 在 Cursor、Claude Code、OpenCode、NextChat、LobeChat 或自定义应用中配置 YesAPI。
-- 使用一个 API Key 接入多个模型供应商。
-- 需要更低成本的开发、测试或自动化调用。
+- 在 Cursor、Claude Code、OpenCode、Windsurf、Trae、NextChat、LobeChat、Dify 或 LangChain 中配置 YesAPI。
+- 用一个 API Key 接入 GPT、Claude、Gemini、DeepSeek、Qwen、Grok 等不同模型。
+- 为 API 应用、自动化任务、内容生成和内部工具降低模型调用成本。
 
 ### 快速配置
 
@@ -43,7 +41,7 @@ Model:    mureka-o1
 ### 调用示例
 
 ```bash
-curl https://yesapi.online/v1/audio/speech \
+curl https://yesapi.online/v1/chat/completions \
   -H "Authorization: Bearer sk-your-yesapi-key" \
   -H "Content-Type: application/json" \
   -d '{
@@ -55,15 +53,15 @@ curl https://yesapi.online/v1/audio/speech \
 ### 排查建议
 
 - 确认 Base URL 包含 `/v1`。
-- 确认模型名称与 YesAPI 控制台展示一致。
+- 确认模型名称和 YesAPI 控制台展示一致。
 - 如果出现 401，重新复制 API Key 并检查前后空格。
 - 如果流式输出中断，先用短提示词和非流式请求测试。
 
-### Next steps
+### 下一步
 
-- [打开 YesAPI 控制台](https://yesapi.online?utm_source=github&utm_medium=docs)
+- [立即使用 YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs)
 - [查看完整官方文档](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
-- [查看原始中文文档](https://doc.yesapi.online/mureka-o1)
+- [查看本页官方中文来源](https://doc.yesapi.online/mureka-o1?utm_source=github&utm_medium=docs)
 
 ---
 
@@ -71,24 +69,24 @@ curl https://yesapi.online/v1/audio/speech \
 
 ## English Version
 
-Use Mureka O1 through YesAPI for speech, music, audio generation, and content production workflows.
+Use Mureka O1 through YesAPI when you need low-cost access to OpenAI-compatible models and endpoints from coding tools, API apps, or automation workflows.
 
-### Basic information
+### Basic Information
 
 | Item | Value |
 | :--- | :--- |
-| Official docs | [Mureka O1](https://doc.yesapi.online/en/mureka-o1) |
-| GitHub category | Audio and Music Models |
+| Official docs | [Mureka O1](https://doc.yesapi.online/en/mureka-o1?utm_source=github&utm_medium=docs) |
+| GitHub category | OpenAI-compatible models and endpoints |
 | Base URL | `https://yesapi.online/v1` |
 | Model name | `mureka-o1` |
 
-### Use cases
+### Common Use Cases
 
-- Configure YesAPI in Cursor, Claude Code, OpenCode, NextChat, LobeChat, or a custom API app.
-- Access multiple model providers with one API key.
-- Reduce development, testing, and automation cost while keeping an OpenAI-compatible workflow.
+- Configure YesAPI in Cursor, Claude Code, OpenCode, Windsurf, Trae, NextChat, LobeChat, Dify, or LangChain.
+- Access GPT, Claude, Gemini, DeepSeek, Qwen, Grok, and other model families with one API key.
+- Reduce model cost for API products, agents, automation jobs, content generation, and internal tools.
 
-### Quick configuration
+### Quick Setup
 
 ```text
 Base URL: https://yesapi.online/v1
@@ -96,10 +94,10 @@ API Key:  your YesAPI key
 Model:    mureka-o1
 ```
 
-### Request example
+### Request Example
 
 ```bash
-curl https://yesapi.online/v1/audio/speech \
+curl https://yesapi.online/v1/chat/completions \
   -H "Authorization: Bearer sk-your-yesapi-key" \
   -H "Content-Type: application/json" \
   -d '{
@@ -111,12 +109,12 @@ curl https://yesapi.online/v1/audio/speech \
 ### Troubleshooting
 
 - Make sure the Base URL includes `/v1`.
-- Make sure the model name matches the YesAPI console.
-- If you see a 401 error, copy the API key again and remove extra spaces.
-- If streaming ends unexpectedly, test a short prompt and then a non-streaming request.
+- Check that the model name matches the YesAPI console.
+- For 401 errors, copy the API key again and remove extra spaces.
+- For interrupted streaming responses, test a short non-streaming request first.
 
-### Next steps
+### Next Steps
 
-- [Open YesAPI Console](https://yesapi.online?utm_source=github&utm_medium=docs)
-- [Read full official docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
-- [Open the English source docs](https://doc.yesapi.online/en/mureka-o1)
+- [Start with YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs)
+- [Read the official docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs)
+- [Open the official English source](https://doc.yesapi.online/en/mureka-o1?utm_source=github&utm_medium=docs)

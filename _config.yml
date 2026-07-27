@@ -1,0 +1,7 @@
+title: YesAPI AI API Proxy Gateway
+description: Low-cost AI API proxy gateway and AI API 中转站 for OpenAI, Claude, Gemini, DeepSeek, Qwen, Grok, Cursor, Claude Code, and OpenCode.
+url: https://tjinyong.github.io
+baseurl: /free-openai-claude-api-proxy-gateway
+
+plugins:
+  - jekyll-sitemap
