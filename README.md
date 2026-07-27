@@ -1,68 +1,66 @@
-# YesAPI AI API 中转站 | OpenAI Claude API Proxy Gateway
-
-<p align="center">
-  <a href="#中文版本">中文版本</a>
-  &nbsp;|&nbsp;
-  <a href="#english-section">English Section</a>
-  &nbsp;|&nbsp;
-  <a href="https://yesapi.online">立即使用 / Start</a>
-  &nbsp;|&nbsp;
-  <a href="https://doc.yesapi.online">Docs</a>
-</p>
-
-<p align="center">
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/AI%20API-Multi--Model%20Access-ef4444?style=for-the-badge" alt="AI API multi-model access"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%C2%A510%20%E5%88%B0%E8%B4%A6%20%2410-f97316?style=for-the-badge" alt="中文 ¥10 到账 $10"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/English-%241.50%20gets%20%2410-16a34a?style=for-the-badge" alt="English $1.50 gets $10"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/OpenAI%20Compatible-/v1%20Endpoint-2563eb?style=for-the-badge" alt="OpenAI compatible /v1 endpoint"></a>
-</p>
-
 <div align="center">
 
-## Low-cost access for popular AI models
+# YesAPI - AI API 中转站
 
-### Pricing example
+**低成本、OpenAI 兼容的 AI API 接入服务**
 
-| User | Pay | Platform credit received | Example at 0.2x model rate |
-| :--- | :--- | :--- | :--- |
-| **中文用户** | **¥10.00** | **$10.00** | **约等于 $50.00 可用模型价值** |
-| **Global users** | **$1.50** | **$10.00** | **About $50.00 usable model value** |
+**OpenAI-compatible API endpoint for GPT, Claude, Gemini, DeepSeek, Qwen, Grok and more**
 
-**YesAPI** provides an OpenAI-compatible API endpoint for multiple AI model providers. You can use one API key, one `/v1` base URL, and one balance across supported models.
+<p>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/Status-Online-16a34a?style=for-the-badge" alt="Status Online"></a>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/OpenAI%20Compatible-/v1%20Endpoint-2563eb?style=for-the-badge" alt="OpenAI compatible endpoint"></a>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/%C2%A510-%2410%20Credit-f97316?style=for-the-badge" alt="CNY top up credit"></a>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/%241.50-%2410%20Credit-0f766e?style=for-the-badge" alt="USD top up credit"></a>
+</p>
 
-[**立即使用 YesAPI**](https://yesapi.online) · [**API 文档 / Docs**](https://doc.yesapi.online) · [**中文版本**](#中文版本) · [**English Section**](#english-section)
+[中文版本](#中文版本) | [English](#english) | [控制台 / Console](https://yesapi.online) | [API 文档 / Docs](https://doc.yesapi.online)
 
 </div>
 
-> Pricing and promotional credit may change. Always follow the actual price and balance shown on [yesapi.online](https://yesapi.online).
-
 ---
 
-## Why the balance lasts longer
+<a id="中文版本"></a>
 
-| Layer | Explanation | Example |
+## 中文版本
+
+YesAPI 面向开发者、AI 编程工具用户和自动化应用，提供低成本的 AI API 接入能力。它兼容 OpenAI API 格式，通常只需要替换 `Base URL`，就可以在现有 SDK 或客户端里使用。
+
+适合这些场景：
+
+- Cursor、Windsurf、Trae、Claude Code、OpenCode 等 AI 编程工具
+- NextChat、LobeChat、ChatBox、Dify、LangChain 等应用和框架
+- 聊天机器人、自动化 Agent、批量内容生成、内部工具开发
+- 需要同时使用 GPT、Claude、Gemini、DeepSeek、Qwen、Grok 等模型的项目
+
+### 价格与额度
+
+| 支付金额 | 到账平台额度 | 示例说明 |
 | :--- | :--- | :--- |
-| **1. Top-up bonus** | Pay a small amount and receive more platform credit. | **¥10.00 / $1.50 -> $10.00 credit** |
-| **2. Model rate discount** | Usage is consumed by each model's rate. Lower rate means longer usage. | **0.2x rate: $10 credit ≈ $50 model usage** |
-| **3. Universal balance** | One balance works across supported models and providers. | GPT, Claude, Gemini, DeepSeek, Qwen, Grok |
+| **¥10.00** | **$10.00** | 以 0.2 倍率模型为例，约等于 $50.00 可用模型价值 |
+| **$1.50** | **$10.00** | 适合使用美元计价的海外用户 |
 
-## Quick API configuration
+> 实际价格、模型倍率和到账额度以 YesAPI 控制台展示为准。
+
+<p align="center">
+  <img src="./yesapi-value-cn.svg" alt="支付 ¥10，到账 $10 额度，低倍率模型约 $50 可用价值" width="860">
+</p>
+
+### 快速接入
 
 ```text
 Base URL: https://yesapi.online/v1
-API Key:  your YesAPI key
+API Key:  你的 YesAPI 密钥
 Docs:     https://doc.yesapi.online
-Website:  https://yesapi.online
 ```
 
-### OpenAI-compatible Python example
+### Python 示例
 
 ```python
 from openai import OpenAI
 
 client = OpenAI(
+    api_key="sk-your-yesapi-key",
     base_url="https://yesapi.online/v1",
-    api_key="your-yesapi-key",
 )
 
 response = client.chat.completions.create(
@@ -73,132 +71,82 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
----
-
-<a id="中文版本"></a>
-
-# 中文版本
-
-## ¥10 低门槛充值，到账 $10 额度
-
-<p align="center">
-  <img src="./yesapi-value-cn.svg" alt="支付 ¥10，到账 $10 额度，低倍率模型约 $50 可用价值" width="860">
-</p>
-
-YesAPI 面向中文开发者、AI 编程工具用户和创业团队，提供低成本的 AI API 接入能力。它兼容 OpenAI API 格式，可用于 Cursor、Windsurf、Trae、Claude Code、OpenCode、NextChat、LobeChat 等工具。
-
-## 中文用户一眼看懂
-
-| 重点 | 说明 |
-| :--- | :--- |
-| **充值便宜** | 示例：支付 **¥10.00**，到账 **$10.00 平台额度**。 |
-| **使用更便宜** | 调用模型时按模型倍率消耗余额，低倍率模型更省。 |
-| **余额更耐用** | 示例：0.2 倍率模型下，$10 额度约等于 $50 可用模型价值。 |
-| **一个 Key 通用** | 一个 API Key 接入 GPT、Claude、Gemini、DeepSeek、Qwen、Grok 等模型。 |
-| **适合 AI 编程** | 适合 Cursor、Windsurf、Trae、Claude Code、OpenCode 等高频调用场景。 |
-
-## 支持模型示例
-
-| 类型 | 模型示例 | 适合场景 |
-| :--- | :--- | :--- |
-| OpenAI / GPT | `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.5` | 代码、推理、Agent 工作流 |
-| Claude | `claude-opus-4-8`, `claude-sonnet-4-6` | 长文本、代码理解、复杂任务 |
-| Gemini | `gemini-3-pro`, `gemini-2.5-pro` | 多模态、长上下文、综合任务 |
-| DeepSeek | `deepseek-v3-2`, `deepseek-r1` | 高性价比中文和代码任务 |
-| 图像 / 视频 | `midjourney-v7`, `sora-2`, `veo-3-1` | 图片生成、视频生成、多媒体应用 |
-
-## 中文快速接入
-
-```text
-API 地址: https://yesapi.online/v1
-文档地址: https://doc.yesapi.online
-官网入口: https://yesapi.online
-```
-
-### Cursor / Windsurf / Trae
-
-1. 打开工具的模型或 API 设置。
-2. 找到 OpenAI-compatible / OpenAI API Key 设置。
-3. Base URL 填写：`https://yesapi.online/v1`
-4. API Key 填写你的 YesAPI 密钥。
-
 ### 常见问题
 
-**为什么看起来比官方便宜？**
+**需要改代码吗？**
 
-因为有两层机制：充值到账优惠 + 模型倍率消耗。实际价格以网站展示为准。
+如果你的项目本来就使用 OpenAI SDK 或 OpenAI-compatible 客户端，通常只需要把 `Base URL` 改成 `https://yesapi.online/v1`，再填入 YesAPI 密钥。
 
 **余额只能用于一个模型吗？**
 
-不是。YesAPI 余额可用于平台支持的多个模型。
+不是。YesAPI 余额可以用于平台支持的多个模型，具体可用模型和倍率以控制台展示为准。
 
-**适合什么用户？**
+**为什么余额更耐用？**
 
-适合需要低成本使用 AI 编程工具、自动化 Agent、聊天机器人、批量内容生成、API 应用的用户。
+充值到账额度和模型倍率会共同影响实际可用量。低倍率模型消耗更少，同样余额可以使用更久。
 
-[开始使用 YesAPI](https://yesapi.online) · [查看中文文档](https://doc.yesapi.online)
+[立即使用 YesAPI](https://yesapi.online) | [查看 API 文档](https://doc.yesapi.online)
 
 ---
 
-<a id="english-section"></a>
+<a id="english"></a>
 
-# English Section
+## English
 
-## Pay $1.50, get $10 credit, use it across models
+YesAPI provides a low-cost, OpenAI-compatible API endpoint for developers, coding agents, automation workflows, and AI apps. In most integrations, you only need to replace the `Base URL` and keep using your existing SDK or client.
+
+Common use cases:
+
+- Cursor, Windsurf, Trae, Claude Code, OpenCode and other AI coding tools
+- NextChat, LobeChat, ChatBox, Dify, LangChain and custom API apps
+- Chatbots, coding agents, batch content generation and internal tools
+- Projects that use GPT, Claude, Gemini, DeepSeek, Qwen, Grok and other model families
+
+### Pricing and credit
+
+| Payment | Platform credit | Example |
+| :--- | :--- | :--- |
+| **$1.50** | **$10.00** | At a 0.2x model rate, this can represent about $50.00 of usable model value |
+| **¥10.00** | **$10.00** | Available for Chinese users who prefer CNY top-up |
+
+> Final pricing, model rates and credited balance are based on the YesAPI console.
 
 <p align="center">
   <img src="./yesapi-value-en.svg" alt="Pay $1.50, get $10 credit, about $50 usable value at low model rate" width="860">
 </p>
 
-YesAPI is a low-cost OpenAI-compatible API service for developers, AI coding tools, startups, and automation workflows. It lets you call multiple model providers through one API key and one `/v1` endpoint.
-
-## English users: what matters
-
-| Highlight | Details |
-| :--- | :--- |
-| **Cheap entry** | Example: pay **$1.50** and get **$10.00 platform credit**. |
-| **Lower usage cost** | Balance is consumed by model rate. Lower rate means longer usage. |
-| **More usable value** | Example: at 0.2x model rate, $10 credit can represent about $50 model usage. |
-| **One API key** | Use GPT, Claude, Gemini, DeepSeek, Qwen, Grok and more with one key. |
-| **Built for coding tools** | Works with Cursor, Windsurf, Trae, Claude Code, OpenCode and API apps. |
-
-## Example model coverage
-
-| Category | Model examples | Use cases |
-| :--- | :--- | :--- |
-| OpenAI / GPT | `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.5` | Coding, reasoning, agent workflows |
-| Claude | `claude-opus-4-8`, `claude-sonnet-4-6` | Long context, code review, complex tasks |
-| Gemini | `gemini-3-pro`, `gemini-2.5-pro` | Multimodal work, long context, general tasks |
-| DeepSeek | `deepseek-v3-2`, `deepseek-r1` | Cost-efficient coding and reasoning |
-| Image / Video | `midjourney-v7`, `sora-2`, `veo-3-1` | Image generation, video generation, media apps |
-
-## English quick start
+### Quick start
 
 ```text
 Base URL: https://yesapi.online/v1
+API Key:  your YesAPI key
 Docs:     https://doc.yesapi.online
-Website:  https://yesapi.online
 ```
 
-### Cursor / Windsurf / Trae
+### TypeScript example
 
-1. Open the model or API settings.
-2. Choose OpenAI-compatible API configuration.
-3. Set Base URL to `https://yesapi.online/v1`.
-4. Use your YesAPI API key.
+```typescript
+import OpenAI from "openai";
 
-### FAQ
+const openai = new OpenAI({
+  apiKey: "sk-your-yesapi-key",
+  baseURL: "https://yesapi.online/v1",
+});
 
-**Why can it be cheaper than direct official APIs?**
+async function main() {
+  const completion = await openai.chat.completions.create({
+    model: "gpt-5.6-sol",
+    messages: [{ role: "user", content: "Hello YesAPI" }],
+  });
 
-Because usage can combine top-up credit promotion with model-rate consumption. Actual pricing is shown on the website.
+  console.log(completion.choices[0].message.content);
+}
 
-**Can one balance be used across models?**
+main();
+```
 
-Yes. A single YesAPI balance can be used across supported providers and models.
+### Supported clients and models
 
-**Who is this for?**
+YesAPI works with OpenAI-compatible SDKs and tools such as Cursor, Claude Code, OpenCode, NextChat, LobeChat, Dify and LangChain. Supported model families include GPT, Claude, Gemini, DeepSeek, Qwen, Grok, image generation and video generation models.
 
-Developers, AI coding tool users, agent builders, API apps, startups, and high-frequency automation workflows.
-
-[Start with YesAPI](https://yesapi.online) · [Read Docs](https://doc.yesapi.online)
+[Start with YesAPI](https://yesapi.online) | [Read the docs](https://doc.yesapi.online)
