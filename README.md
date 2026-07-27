@@ -35,7 +35,7 @@
 | **2. Usage / 使用** | 调用时再按模型倍率折扣。倍率越低，余额越耐用。 | Spend is discounted again by model rate. Lower rate = longer use. |
 | **3. Result / 结果** | 小额充值，更多调用，代码补全和 Agent 用得更久。 | Small payment, more API calls, longer coding and agent usage. |
 
-[Start Free Trial](https://yesapi.online) - [View Documentation](https://yesapi.online/docs)
+[Start Free Trial](https://yesapi.online) - [View Documentation](https://doc.yesapi.online/)
 
 </div>
 
