@@ -2,6 +2,11 @@
 
 This page is a practical review-style note for developers comparing an AI API proxy gateway, an OpenAI API proxy, a Claude API proxy, or a low-cost OpenAI-compatible endpoint. It focuses on selection criteria that matter when a team wants one endpoint for coding tools, chat apps, automation workflows, and API products.
 
+> **YesAPI price note**  
+> 中文用户：**¥10.00 支付 -> $10.00 平台额度 -> 约 $50.00 可用模型价值**  
+> Global users: **$1.50 payment -> $10.00 platform credit -> about $50.00 usable model value**  
+> [Open YesAPI Console](https://yesapi.online?utm_source=github&utm_medium=reviews)
+
 ## 中文版本
 
 ### 这类服务解决什么问题
@@ -121,3 +126,11 @@ Useful links:
 
 - YesAPI: https://yesapi.online/?utm_source=github&utm_medium=reviews
 - Docs: https://doc.yesapi.online/?utm_source=github&utm_medium=reviews
+
+## Start with YesAPI
+
+- Console: https://yesapi.online/?utm_source=github&utm_medium=reviews
+- API docs: https://doc.yesapi.online/?utm_source=github&utm_medium=reviews
+- GitHub tutorials: ../tutorials/cursor-openai-api-proxy.md
+
+Use this review as a checklist, then test your own client with a short request before moving a larger workflow over.
