@@ -4,6 +4,13 @@
 
 ---
 
+> **YesAPI pricing highlight**  
+> 中文用户：**¥10.00 支付 → $10.00 平台额度 → 约 $50.00 可用模型价值**  
+> Global users: **[中文](#中文版本) | [English](#english-version)
+
+---.50 payment → $10.00 platform credit → about $50.00 usable model value**  
+> [Open YesAPI Console](https://yesapi.online?utm_source=github&utm_medium=docs)
+
 <a id="中文版本"></a>
 
 ## 中文版本
@@ -36,7 +43,7 @@ Model:    sora-turbo
 ### 调用示例
 
 ```bash
-curl https://yesapi.online/v1/v1/video/generations \
+curl https://yesapi.online/v1/video/generations \
   -H "Authorization: Bearer sk-your-yesapi-key" \
   -H "Content-Type: application/json" \
   -d '{
@@ -92,7 +99,7 @@ Model:    sora-turbo
 ### Request example
 
 ```bash
-curl https://yesapi.online/v1/v1/video/generations \
+curl https://yesapi.online/v1/video/generations \
   -H "Authorization: Bearer sk-your-yesapi-key" \
   -H "Content-Type: application/json" \
   -d '{
