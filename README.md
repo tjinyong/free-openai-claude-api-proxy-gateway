@@ -21,13 +21,6 @@
 
 ## Cheap AI API 中转站 / Low-Cost AI API Proxy Gateway
 
-### One API key for GPT, Claude, Gemini, DeepSeek, Grok and Qwen
-
-| Language | Search intent | Price hook | Direct entry |
-| :--- | :--- | :--- | :--- |
-| **中文** | **AI API 中转站 / OpenAI 中转 / Claude 中转 / 大模型 API 中转** | **¥10.00 充值，到账 $10.00 额度** | [立即使用](https://yesapi.online) |
-| **English** | **AI API proxy gateway / OpenAI API proxy / Claude API proxy / cheap GPT API** | **Pay $1.50, get $10.00 platform credit** | [Start now](https://yesapi.online) |
-
 ### Price is the main point
 
 | User | Pay | Platform credit received | Example at 0.2x model rate |
