@@ -34,10 +34,13 @@ YesAPI 面向开发者、AI 编程工具用户和自动化应用，提供低成�
 
 ### 价格与额度
 
-| 支付金额 | 到账平台额度 | 示例说明 |
-| :--- | :--- | :--- |
-| **¥10.00** | **$10.00** | 以 0.2 倍率模型为例，约等于 $50.00 可用模型价值 |
-| **$1.50** | **$10.00** | 适合使用美元计价的海外用户 |
+| 项目 | 数值 |
+| :--- | :--- |
+| 支付 | **¥10.00** |
+| 到账 | **$10.00 平台额度** |
+| 可用额度 | **约 $50.00 可用模型价值** |
+
+以 0.2 倍率模型为例，`$10.00` 平台额度约等于 `$50.00` 可用模型价值。美元支付用户可按 **$1.50** 获得 **$10.00** 平台额度。
 
 > 实际价格、模型倍率和到账额度以 YesAPI 控制台展示为准。
 
@@ -104,10 +107,13 @@ Common use cases:
 
 ### Pricing and credit
 
-| Payment | Platform credit | Example |
-| :--- | :--- | :--- |
-| **$1.50** | **$10.00** | At a 0.2x model rate, this can represent about $50.00 of usable model value |
-| **¥10.00** | **$10.00** | Available for Chinese users who prefer CNY top-up |
+| Item | Value |
+| :--- | :--- |
+| Payment | **$1.50** |
+| Platform credit | **$10.00** |
+| Usable value | **About $50.00 of model usage** |
+
+At a 0.2x model rate, `$10.00` platform credit can represent about `$50.00` of usable model value. Chinese users can pay **¥10.00** to receive **$10.00** platform credit.
 
 > Final pricing, model rates and credited balance are based on the YesAPI console.
 
