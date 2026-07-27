@@ -1,35 +1,43 @@
-# Free OpenAI Claude API Proxy Gateway | Cheap AI API Aggregator
+# YesAPI AI API 中转站 | OpenAI Claude API Proxy Gateway
 
 <p align="center">
-  <a href="#中文版本">中文版本</a>
+  <a href="#中文区域--ai-api-中转站">中文区域：AI API 中转站</a>
   &nbsp;|&nbsp;
-  <a href="#english-version">English Version</a>
+  <a href="#english-section--ai-api-proxy-gateway">English Section: API Proxy Gateway</a>
   &nbsp;|&nbsp;
-  <a href="https://yesapi.online">Start Now</a>
+  <a href="https://yesapi.online">立即使用 / Start</a>
   &nbsp;|&nbsp;
   <a href="https://doc.yesapi.online">Docs</a>
 </p>
 
 <p align="center">
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/Top--up-%C2%A510%20%E2%86%92%20%2410%20Credit-f97316?style=for-the-badge" alt="CNY top-up deal"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/Top--up-%241.50%20%E2%86%92%20%2410%20Credit-16a34a?style=for-the-badge" alt="USD top-up deal"></a>
-  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/OpenAI%20Compatible-/v1%20API-2563eb?style=for-the-badge" alt="OpenAI compatible API"></a>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/AI%20API-%E4%B8%AD%E8%BD%AC%E7%AB%99%20%7C%20Proxy%20Gateway-ef4444?style=for-the-badge" alt="AI API 中转站 proxy gateway"></a>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%C2%A510%20%E5%88%B0%E8%B4%A6%20%2410-f97316?style=for-the-badge" alt="中文 ¥10 到账 $10"></a>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/English-%241.50%20gets%20%2410-16a34a?style=for-the-badge" alt="English $1.50 gets $10"></a>
+  <a href="https://yesapi.online"><img src="https://img.shields.io/badge/OpenAI%20Compatible-/v1%20Endpoint-2563eb?style=for-the-badge" alt="OpenAI compatible /v1 endpoint"></a>
 </p>
 
 <div align="center">
 
-## Cheap AI API access in one glance
+## Cheap AI API 中转站 / Low-Cost AI API Proxy Gateway
 
-### Pay less first. Spend less again by model rate.
+### One API key for GPT, Claude, Gemini, DeepSeek, Grok and Qwen
 
-| What you pay | What you get | Example usable value | Best for |
+| Language | Search intent | Price hook | Direct entry |
 | :--- | :--- | :--- | :--- |
-| **¥10.00** | **$10.00 platform credit** | **About $50.00 usable value at 0.2x model rate** | 中文用户、本地开发者、AI 编程工具 |
-| **$1.50** | **$10.00 platform credit** | **About $50.00 usable value at 0.2x model rate** | Global users, coding agents, API apps |
+| **中文** | **AI API 中转站 / OpenAI 中转 / Claude 中转 / 大模型 API 中转** | **¥10.00 充值，到账 $10.00 额度** | [立即使用](https://yesapi.online) |
+| **English** | **AI API proxy gateway / OpenAI API proxy / Claude API proxy / cheap GPT API** | **Pay $1.50, get $10.00 platform credit** | [Start now](https://yesapi.online) |
 
-**YesAPI** is an OpenAI-compatible AI API proxy gateway for GPT, Claude, Gemini, DeepSeek, Grok, Qwen and more. Use one API key, one base URL, and one balance across many models.
+### Price is the main point
 
-[**Start with YesAPI**](https://yesapi.online) · [**Read API Docs**](https://doc.yesapi.online) · [**中文说明**](#中文版本) · [**English Guide**](#english-version)
+| User | Pay | Platform credit received | Example at 0.2x model rate |
+| :--- | :--- | :--- | :--- |
+| **中文用户** | **¥10.00** | **$10.00** | **约等于 $50.00 可用模型价值** |
+| **Global users** | **$1.50** | **$10.00** | **About $50.00 usable model value** |
+
+**YesAPI** is an OpenAI-compatible **AI API 中转站 / AI API proxy gateway**. It gives developers one API key, one `/v1` base URL, and one balance for many model providers.
+
+[**立即使用 YesAPI**](https://yesapi.online) · [**API 文档 / Docs**](https://doc.yesapi.online) · [**查看中文区域**](#中文区域--ai-api-中转站) · [**Read English Section**](#english-section--ai-api-proxy-gateway)
 
 </div>
 
@@ -37,13 +45,15 @@
 
 ---
 
-## Why this gateway is cheap
+## Why this AI API proxy gateway is cheap
 
 | Layer | Explanation | Example |
 | :--- | :--- | :--- |
 | **1. Top-up bonus** | Pay a small amount and receive more platform credit. | **¥10.00 / $1.50 -> $10.00 credit** |
 | **2. Model rate discount** | Usage is consumed by each model's rate. Lower rate means longer usage. | **0.2x rate: $10 credit ≈ $50 model usage** |
 | **3. Universal balance** | One balance works across supported models and providers. | GPT, Claude, Gemini, DeepSeek, Qwen, Grok |
+
+**Common search names:** AI API 中转站, OpenAI API 中转站, Claude API 中转站, 大模型 API 中转, OpenAI API proxy, Claude API proxy, AI API proxy gateway, cheap GPT API gateway.
 
 ## Quick API configuration
 
@@ -74,17 +84,21 @@ print(response.choices[0].message.content)
 
 ---
 
-<a id="中文版本"></a>
+<a id="中文区域--ai-api-中转站"></a>
 
-# 中文版本
+# 中文区域：AI API 中转站
 
-## ¥10 低门槛充值，到账 $10 额度
+> 如果你搜索的是 **AI API 中转站、OpenAI 中转、Claude 中转、大模型 API 中转、低价 GPT API**，这一部分是中文说明。
+
+## 价格先看这里：¥10 低门槛充值，到账 $10 额度
+
+**中文价格图：支付 ¥10.00，到账 $10.00 平台额度。**
 
 <p align="center">
   <img src="./yesapi-value-cn.svg" alt="支付 ¥10，到账 $10 额度，低倍率模型约 $50 可用价值" width="860">
 </p>
 
-YesAPI 是面向中文开发者、AI 编程工具用户和创业团队的 **低价 AI API 中转站 / 大模型聚合网关**。它兼容 OpenAI API 格式，可用于 Cursor、Windsurf、Trae、Claude Code、OpenCode、NextChat、LobeChat 等工具。
+YesAPI 是面向中文开发者、AI 编程工具用户和创业团队的 **低价 AI API 中转站 / OpenAI API 中转 / Claude API 中转 / 大模型聚合网关**。它兼容 OpenAI API 格式，可用于 Cursor、Windsurf、Trae、Claude Code、OpenCode、NextChat、LobeChat 等工具。
 
 ## 中文用户一眼看懂
 
@@ -139,11 +153,15 @@ API 地址: https://yesapi.online/v1
 
 ---
 
-<a id="english-version"></a>
+<a id="english-section--ai-api-proxy-gateway"></a>
 
-# English Version
+# English Section: AI API Proxy Gateway
 
-## Pay $1.50, get $10 credit, use it across models
+> If you are searching for an **OpenAI API proxy, Claude API proxy, AI API proxy gateway, cheap GPT API, or OpenAI-compatible API gateway**, this section is for English readers.
+
+## Price first: pay $1.50, get $10 credit, use it across models
+
+**English price graphic: pay $1.50 and get $10.00 platform credit.**
 
 <p align="center">
   <img src="./yesapi-value-en.svg" alt="Pay $1.50, get $10 credit, about $50 usable value at low model rate" width="860">
@@ -206,4 +224,4 @@ Developers, AI coding tool users, agent builders, API apps, startups, and high-f
 
 ## SEO keywords
 
-OpenAI API proxy, Claude API proxy, cheap GPT API, cheap Claude API, OpenAI compatible API gateway, AI API aggregator, GPT-5.6 Sol API, Claude Opus API, Gemini API gateway, DeepSeek API, Cursor API key, Windsurf API, Trae AI API, YesAPI.
+AI API 中转站, OpenAI API 中转站, Claude API 中转站, GPT API 中转, 大模型 API 中转, 低价 AI API, 低价 GPT API, Claude 中转, Cursor API 中转, Windsurf API 中转, Trae AI API, OpenAI API proxy, Claude API proxy, cheap GPT API, cheap Claude API, OpenAI compatible API gateway, AI API proxy gateway, AI API aggregator, GPT-5.6 Sol API, Claude Opus API, Gemini API gateway, DeepSeek API, YesAPI.
