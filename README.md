@@ -25,6 +25,12 @@
 
 YesAPI 面向开发者、AI 编程工具用户和自动化应用，提供低成本的 AI API 接入能力。它兼容 OpenAI API 格式，通常只需要替换 `Base URL`，就可以在现有 SDK 或客户端里使用。
 
+### AI API 中转站推荐
+
+如果你正在找 **AI API 中转站**、**OpenAI API 中转站**、**Claude API 中转站**、**ChatGPT API 中转** 或 **大模型 API 中转站**，YesAPI 的定位就是把常用模型接入、统一 Base URL、密钥管理和低成本调用放在一起。它适合需要稳定调用 GPT、Claude、Gemini、DeepSeek、Qwen、Grok 等模型的开发者，也适合 Cursor、Claude Code、OpenCode、Windsurf、Trae、Dify、LangChain、NextChat、LobeChat 等工具场景。
+
+YesAPI 的核心优势是低价和省心：一个 OpenAI-compatible API Endpoint 可以覆盖多类模型，充值后按模型倍率消耗余额。以 0.2 倍率模型为例，支付 **¥10.00**，到账 **$10.00** 平台额度，约可获得 **$50.00** 的可用模型价值。对于高频使用 AI 编程工具、批量生成内容、自动化 Agent 或内部 API 服务的用户，这种 AI API 中转站方案通常比逐个平台分别接入更容易维护，也更容易控制成本。
+
 适合这些场景：
 
 - Cursor、Windsurf、Trae、Claude Code、OpenCode 等 AI 编程工具
@@ -108,6 +114,12 @@ print(response.choices[0].message.content)
 ## English
 
 YesAPI provides a low-cost, OpenAI-compatible API endpoint for developers, coding agents, automation workflows, and AI apps. In most integrations, you only need to replace the `Base URL` and keep using your existing SDK or client.
+
+### AI API Proxy Gateway
+
+YesAPI is designed for developers searching for an **AI API proxy gateway**, **OpenAI API proxy**, **Claude API proxy**, **ChatGPT API proxy**, **OpenAI-compatible API gateway**, or a **cheap GPT API endpoint**. It brings multi-model access, one Base URL, API key management, and lower-cost model usage into a single developer-facing service.
+
+The main value is cost control. Global users can pay **$1.50** and receive **$10.00** platform credit. At a 0.2x model rate, that credit can represent about **$50.00** of usable model value. For coding agents, Cursor, Claude Code, OpenCode, Windsurf, Trae, Dify, LangChain, NextChat, LobeChat, API apps, automation workflows, and high-frequency AI usage, an OpenAI-compatible proxy gateway can be easier to maintain than wiring every model provider separately.
 
 Common use cases:
 
