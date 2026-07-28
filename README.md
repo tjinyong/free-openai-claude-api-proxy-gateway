@@ -13,7 +13,7 @@
   <a href="https://yesapi.online?utm_source=github&utm_medium=docs"><img src="https://img.shields.io/badge/%241.50-%2410%20Credit-0f766e?style=for-the-badge" alt="USD top up credit"></a>
 </p>
 
-[中文版本](#中文版本) | [English](#english) | [控制台 / Console](https://yesapi.online?utm_source=github&utm_medium=docs) | [API 文档 / Docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs) | [Telegram Updates](https://t.me/s/yesapi_online)
+[中文版本](#中文版本) | [English](#english) | [控制台 / Console](https://yesapi.online?utm_source=github&utm_medium=docs) | [API 文档 / Docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs) | [Telegram 群组 / Group](https://t.me/yesapi_relay)
 
 </div>
 
@@ -202,7 +202,7 @@ YesAPI works with OpenAI-compatible SDKs and tools such as Cursor, Claude Code, 
 | Image example | [Midjourney V7 YesAPI Guide](docs/pages/midjourney-v7.md) |
 | Video example | [Sora 2 YesAPI Guide](docs/pages/sora-2.md) |
 
-[Start with YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs) | [Read the docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs) | [Telegram updates](https://t.me/s/yesapi_online)
+[Start with YesAPI](https://yesapi.online?utm_source=github&utm_medium=docs) | [Read the docs](https://doc.yesapi.online?utm_source=github&utm_medium=docs) | [Telegram group](https://t.me/yesapi_relay)
 
 
 ## Integration Tutorials
