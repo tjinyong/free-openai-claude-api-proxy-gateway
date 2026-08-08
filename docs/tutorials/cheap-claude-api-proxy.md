@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cheap Claude API Proxy Guide | Claude API 低成本调用方案
+description: Practical guide to connect Claude-compatible clients to an OpenAI-compatible API proxy with Base URL and API key configuration.
+permalink: /docs/tutorials/cheap-claude-api-proxy/
+---
+
 # Cheap Claude API Proxy Guide / Claude API 低成本调用方案
 
 This guide is for developers who want to connect Claude-compatible clients to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

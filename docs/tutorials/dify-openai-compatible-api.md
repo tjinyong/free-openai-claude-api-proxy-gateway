@@ -1,3 +1,10 @@
+---
+layout: default
+title: Dify OpenAI-Compatible API Setup | Dify 配置 OpenAI-Compatible API
+description: Configure an OpenAI-compatible provider in Dify with the correct Base URL, model settings, API key, and troubleshooting steps.
+permalink: /docs/tutorials/dify-openai-compatible-api/
+---
+
 # Dify OpenAI-Compatible API Setup / Dify 配置 OpenAI-Compatible API
 
 This guide is for developers who want to connect Dify to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

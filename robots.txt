@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tjinyong.github.io/free-openai-claude-api-proxy-gateway/sitemap.xml

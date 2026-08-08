@@ -207,6 +207,9 @@ YesAPI works with OpenAI-compatible SDKs and tools such as Cursor, Claude Code, 
 
 ## Integration Tutorials
 
+The same guides are available as crawlable HTML pages on the
+[YesAPI integration documentation site](https://tjinyong.github.io/free-openai-claude-api-proxy-gateway/).
+
 - [Cursor OpenAI API Proxy Setup](docs/tutorials/cursor-openai-api-proxy.md)
 - [Claude Code API Proxy Setup](docs/tutorials/claude-code-api-proxy.md)
 - [OpenCode OpenAI-Compatible Base URL](docs/tutorials/opencode-openai-compatible-base-url.md)

@@ -1,3 +1,10 @@
+---
+layout: default
+title: VSCode OpenAI Base URL Setup | VSCode 插件配置指南
+description: Configure VSCode AI extensions with a custom OpenAI-compatible Base URL and API key.
+permalink: /docs/tutorials/vscode-openai-base-url/
+---
+
 # VSCode OpenAI Base URL Setup / VSCode 插件配置第三方 OpenAI Base URL
 
 This guide is for developers who want to connect VSCode AI extensions to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

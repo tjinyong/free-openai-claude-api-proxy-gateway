@@ -1,3 +1,10 @@
+---
+layout: default
+title: OpenAI SDK Custom Base URL | OpenAI SDK 修改 Base URL 示例
+description: Use a custom OpenAI-compatible Base URL with the OpenAI SDK in Python and JavaScript applications.
+permalink: /docs/tutorials/openai-sdk-custom-base-url/
+---
+
 # OpenAI SDK Custom Base URL / OpenAI SDK 修改 Base URL 示例
 
 This guide is for developers who want to connect OpenAI SDK to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

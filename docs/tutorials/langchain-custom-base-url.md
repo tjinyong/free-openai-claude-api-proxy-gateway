@@ -1,3 +1,10 @@
+---
+layout: default
+title: LangChain Custom Base URL Setup | LangChain 使用第三方 Base URL
+description: Set a custom OpenAI-compatible Base URL in LangChain applications with practical Python and JavaScript examples.
+permalink: /docs/tutorials/langchain-custom-base-url/
+---
+
 # LangChain Custom Base URL Setup / LangChain 使用第三方 Base URL
 
 This guide is for developers who want to connect LangChain to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

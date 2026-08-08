@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cursor OpenAI API Proxy Setup | Cursor 配置 OpenAI API 中转站
+description: Step-by-step Cursor configuration for a custom OpenAI-compatible API endpoint, including Base URL and API key settings.
+permalink: /docs/tutorials/cursor-openai-api-proxy/
+---
+
 # Cursor OpenAI API Proxy Setup / Cursor 配置 OpenAI API 中转站
 
 This guide is for developers who want to connect Cursor to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

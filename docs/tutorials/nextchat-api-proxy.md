@@ -1,3 +1,10 @@
+---
+layout: default
+title: NextChat API Proxy Setup | NextChat 接入 OpenAI API
+description: Configure NextChat with a custom OpenAI-compatible API proxy using environment variables, Base URL, and model settings.
+permalink: /docs/tutorials/nextchat-api-proxy/
+---
+
 # NextChat API Proxy Setup / NextChat 接入 OpenAI API Proxy
 
 This guide is for developers who want to connect NextChat to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

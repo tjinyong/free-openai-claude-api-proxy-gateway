@@ -1,3 +1,10 @@
+---
+layout: default
+title: LobeChat API Proxy Setup | LobeChat 接入 OpenAI-compatible API
+description: Configure LobeChat to use a custom OpenAI-compatible API proxy, including endpoint, model list, and API key settings.
+permalink: /docs/tutorials/lobechat-api-proxy/
+---
+
 # LobeChat API Proxy Setup / LobeChat 接入便宜 GPT API
 
 This guide is for developers who want to connect LobeChat to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

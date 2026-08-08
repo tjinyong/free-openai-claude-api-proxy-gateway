@@ -1,3 +1,10 @@
+---
+layout: default
+title: Claude Code API Proxy Setup | Claude Code 配置 Claude API Proxy
+description: Configure Claude Code with a compatible API proxy, including the endpoint, API key, and common connection checks.
+permalink: /docs/tutorials/claude-code-api-proxy/
+---
+
 # Claude Code API Proxy Setup / Claude Code 配置 Claude API Proxy
 
 This guide is for developers who want to connect Claude Code to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.

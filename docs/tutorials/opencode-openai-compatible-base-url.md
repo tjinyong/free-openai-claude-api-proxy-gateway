@@ -1,3 +1,10 @@
+---
+layout: default
+title: OpenCode OpenAI-Compatible Base URL | OpenCode 配置指南
+description: Configure an OpenAI-compatible provider and custom Base URL in OpenCode with model and API key examples.
+permalink: /docs/tutorials/opencode-openai-compatible-base-url/
+---
+
 # OpenCode OpenAI-Compatible Base URL / OpenCode 配置 OpenAI-Compatible Base URL
 
 This guide is for developers who want to connect OpenCode to YesAPI as a low-cost AI API proxy gateway. It is written as a practical setup note rather than a full API reference.
