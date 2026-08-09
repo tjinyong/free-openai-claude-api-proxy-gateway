@@ -223,4 +223,4 @@ The same guides are available as crawlable HTML pages on the
 ## Review Notes
 
 - [AI API Proxy Gateway Review / AI API 中转站选型笔记](docs/reviews/ai-api-proxy-gateway-review.md)
-- [2026 AI API 中转站对比：YesAPI、NewAPI、Sub2API 与 OpenRouter](docs/reviews/ai-api-router-comparison-2026.md)
+- [NewAPI vs Sub2API：YesAPI 后台迁移与程序对比](docs/reviews/ai-api-router-comparison-2026.md)

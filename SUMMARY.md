@@ -1,6 +1,6 @@
 # YesAPI GitHub Docs
 
-- [2026 AI API 中转站对比：YesAPI、NewAPI、Sub2API 与 OpenRouter](docs/reviews/ai-api-router-comparison-2026.md)
+- [NewAPI vs Sub2API：YesAPI 后台迁移与程序对比](docs/reviews/ai-api-router-comparison-2026.md)
 
 - [README](README.md)
 - [Bilingual docs index](docs/pages/README.md)
